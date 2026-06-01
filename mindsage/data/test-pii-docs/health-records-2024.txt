@@ -1,0 +1,94 @@
+SUTTER HEALTH - PALO ALTO MEDICAL FOUNDATION
+Patient Medical Record Summary
+
+PATIENT INFORMATION
+===================
+Patient Name: Donald Raymond Jones
+Date of Birth: March 15, 1987
+Age: 37 years
+Sex: Male
+MRN (Medical Record Number): PAM-4421887
+SSN: 542-78-4829
+
+Address: 1847 Maple Grove Drive, Apt 4B
+         San Jose, CA 95126
+Phone: (408) 555-7834
+Email: don.jones.1987@gmail.com
+Emergency Contact: Linda Jones (Mother) - (925) 555-3341
+
+Insurance Information:
+Primary: Blue Shield of California
+Policy #: BSC-8847562-01
+Group #: TV-TECH-500
+Subscriber: Donald R. Jones
+
+Primary Care Physician: Dr. Patricia Chen, MD
+PCP Phone: (650) 555-2200
+
+VISIT SUMMARY - December 12, 2024
+=================================
+Chief Complaint: Annual physical examination, follow-up on mild hypertension
+
+Vital Signs:
+- Blood Pressure: 132/84 mmHg (slightly elevated)
+- Heart Rate: 72 bpm
+- Temperature: 98.4°F
+- Weight: 178 lbs
+- Height: 5'10"
+- BMI: 25.5 (overweight)
+
+Current Medications:
+1. Lisinopril 10mg - once daily for blood pressure
+2. Vitamin D3 2000 IU - once daily
+3. Fish Oil 1000mg - once daily
+
+Allergies: Penicillin (rash), Sulfa drugs (hives)
+
+Lab Results (drawn 12/10/2024):
+- Total Cholesterol: 198 mg/dL (borderline)
+- LDL: 122 mg/dL (near optimal)
+- HDL: 52 mg/dL (acceptable)
+- Triglycerides: 145 mg/dL (normal)
+- Fasting Glucose: 98 mg/dL (normal)
+- HbA1c: 5.4% (normal)
+- TSH: 2.1 mIU/L (normal)
+- Complete Blood Count: Within normal limits
+
+Assessment:
+1. Essential hypertension - controlled on current medication
+2. Overweight - BMI 25.5
+3. Borderline hyperlipidemia - monitor
+
+Plan:
+1. Continue Lisinopril 10mg daily
+2. Lifestyle modifications: reduce sodium, increase exercise to 150 min/week
+3. Dietary counseling referral to nutritionist Sarah Martinez, RD
+4. Recheck lipid panel in 6 months
+5. Follow up in 3 months for BP check
+
+Immunizations Given:
+- Influenza vaccine (Lot #: FLU2024-8834)
+
+PREVIOUS VISITS
+===============
+08/15/2024 - Urgent Care - Upper respiratory infection
+  Prescribed: Azithromycin 250mg (Z-pack)
+
+05/22/2024 - Dermatology - Dr. Michael Park
+  Diagnosis: Mild eczema, left forearm
+  Prescribed: Hydrocortisone 1% cream
+
+02/10/2024 - Annual Eye Exam - Dr. Lisa Wong, OD
+  Vision: 20/25 both eyes
+  Prescribed: Computer glasses for work
+
+FAMILY HISTORY
+==============
+Father (Raymond Jones, deceased 2019): Type 2 Diabetes, Heart Disease
+Mother (Linda Jones, age 68): Hypertension, Osteoarthritis
+Brother (David Jones, age 34): No significant medical history
+
+Provider Signature: Patricia Chen, MD
+License #: CA-A78834
+NPI: 1234567890
+Date: December 12, 2024

@@ -1,0 +1,204 @@
+SILICON VALLEY EYE CARE
+Comprehensive Eye Examination Report
+
+========================================
+PATIENT INFORMATION
+========================================
+Patient: Donald Raymond Jones
+Date of Birth: March 15, 1987
+Age: 37 years
+Sex: Male
+Patient ID: SVEC-2024-4829
+
+Address: 1847 Maple Grove Drive, Apt 4B
+         San Jose, CA 95126
+Phone: (408) 555-7834
+Email: don.jones.1987@gmail.com
+
+Emergency Contact: Linda Jones (Mother)
+Phone: (925) 555-3341
+
+========================================
+INSURANCE INFORMATION
+========================================
+Vision Insurance: VSP (Vision Service Plan)
+Member ID: 847291847
+Group: TV-VISION-500
+Subscriber: Donald R. Jones (Self)
+Employer: TechVision Corporation
+
+Coverage:
+- Exam: $10 copay (1 per year)
+- Frames: $150 allowance
+- Lenses: Covered in full
+- Contact Lens Allowance: $150
+
+========================================
+EXAMINATION DATE: February 10, 2024
+========================================
+Provider: Lisa Wong, OD
+License #: OD-84729
+NPI: 5678901234
+
+Chief Complaint:
+Annual eye exam. Patient reports mild eye strain after prolonged computer
+use at work (8+ hours daily). No other visual complaints.
+
+========================================
+VISUAL ACUITY
+========================================
+                    Without Correction    With Current Glasses
+Right Eye (OD):     20/25                 N/A (no current Rx)
+Left Eye (OS):      20/25                 N/A
+Both Eyes (OU):     20/20                 N/A
+
+Near Vision:
+Right Eye: 20/20 at 16 inches
+Left Eye: 20/20 at 16 inches
+
+========================================
+REFRACTION
+========================================
+Current Prescription (New):
+
+Right Eye (OD): +0.50 -0.25 x 090
+Left Eye (OS):  +0.50 -0.50 x 085
+
+Add Power (for computer use): +0.75
+
+Interpretation:
+Mild hyperopia (farsightedness) with slight astigmatism. This explains
+the eye strain during prolonged near work (computer use).
+
+Recommendation: Computer glasses for work use. Not required for driving
+or daily activities.
+
+========================================
+OCULAR HEALTH EXAMINATION
+========================================
+
+External Exam:
+- Lids/Lashes: Normal, no inflammation
+- Conjunctiva: Clear and white
+- Cornea: Clear, no defects
+- Anterior Chamber: Deep and quiet
+
+Pupil Exam:
+- PERRLA (Pupils Equal, Round, Reactive to Light and Accommodation)
+- No afferent pupillary defect
+
+Intraocular Pressure (IOP):
+- Right Eye: 14 mmHg (normal: 10-21)
+- Left Eye: 15 mmHg
+- Method: Non-contact tonometry
+
+Dilated Fundus Exam:
+- Optic Nerve: Healthy, cup-to-disc ratio 0.3 OU
+- Macula: Clear, no drusen
+- Retinal Vessels: Normal caliber, no crossing changes
+- Peripheral Retina: Intact, no holes or tears
+
+========================================
+ADDITIONAL TESTING
+========================================
+
+Visual Field Screening: Full to confrontation
+Color Vision: Normal (Ishihara plates 14/14)
+Stereopsis: Normal (Titmus fly test)
+
+Digital Retinal Photography:
+Images captured and stored. No abnormalities detected.
+
+========================================
+ASSESSMENT
+========================================
+1. Mild hyperopia with astigmatism, OU
+2. Asthenopia (eye strain) secondary to prolonged near work
+3. Ocular health within normal limits
+
+========================================
+PLAN
+========================================
+1. Prescribe computer glasses for work use
+2. Recommend 20-20-20 rule (every 20 min, look 20 feet away for 20 sec)
+3. Consider blue light filtering lenses
+4. Return in 1 year for routine exam
+5. Return sooner if any vision changes or concerns
+
+========================================
+GLASSES ORDER
+========================================
+Order Date: February 10, 2024
+Order #: SVEC-ORD-847291
+
+Frame Selected:
+Ray-Ban RB5154 Clubmaster (Black/Gold)
+Frame Size: 51-21-145
+Frame Price: $189.00
+
+Lenses:
+- Single Vision (computer distance)
+- Blue Light Filter coating
+- Anti-reflective coating
+- Polycarbonate material
+Lens Price: $175.00
+
+Total: $364.00
+VSP Frame Allowance: -$150.00
+VSP Lens Coverage: -$175.00
+Patient Responsibility: $39.00
+
+Payment: Chase Visa ****4421
+Paid: February 10, 2024
+
+Estimated Ready Date: February 17, 2024
+Pickup Location: Silicon Valley Eye Care
+                 3000 El Camino Real, Suite 200
+                 Santa Clara, CA 95051
+
+========================================
+CONTACT LENS INFORMATION
+========================================
+Patient currently does not wear contact lenses.
+Previous contact lens use: None
+
+Contact lens fitting available if interested in future.
+VSP Contact Lens Allowance: $150/year (unused)
+
+========================================
+PATIENT EDUCATION PROVIDED
+========================================
+- Digital eye strain prevention tips
+- Proper workstation ergonomics
+- Blue light and sleep quality
+- Importance of regular eye exams
+
+========================================
+PRACTICE INFORMATION
+========================================
+Silicon Valley Eye Care
+Lisa Wong, OD
+CA License #: OD-84729
+NPI: 5678901234
+
+3000 El Camino Real, Suite 200
+Santa Clara, CA 95051
+Phone: (408) 555-EYES (3937)
+Fax: (408) 555-3938
+Email: appointments@sveyecare.com
+
+Hours:
+Mon-Fri: 9:00 AM - 6:00 PM
+Saturday: 9:00 AM - 3:00 PM
+Sunday: Closed
+
+Next Recommended Visit: February 2025
+
+========================================
+PRESCRIPTION VALIDITY
+========================================
+This prescription is valid for:
+- Glasses: 2 years from exam date
+- Contact Lenses: 1 year from fitting date (N/A - not fitted)
+
+Prescription expires: February 10, 2026

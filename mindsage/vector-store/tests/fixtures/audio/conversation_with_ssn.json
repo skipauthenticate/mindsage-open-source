@@ -1,0 +1,63 @@
+{
+  "filename": "conversation_with_ssn.wav",
+  "description": "Conversation mentioning a social security number",
+  "duration_seconds": 7.1,
+  "sample_rate": 16000,
+  "transcript": "My social security number is 529-38-4271 for verification",
+  "words": [
+    {
+      "word": "My",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "social",
+      "start": 0.4,
+      "end": 0.8
+    },
+    {
+      "word": "security",
+      "start": 0.8,
+      "end": 1.2
+    },
+    {
+      "word": "number",
+      "start": 1.2,
+      "end": 1.6
+    },
+    {
+      "word": "is",
+      "start": 1.6,
+      "end": 2.0
+    },
+    {
+      "word": "529-38-4271",
+      "start": 2.0,
+      "end": 2.4
+    },
+    {
+      "word": "for",
+      "start": 2.4,
+      "end": 2.8
+    },
+    {
+      "word": "verification",
+      "start": 2.8,
+      "end": 3.2
+    }
+  ],
+  "pii_regions": [
+    {
+      "start_time": 2.0,
+      "end_time": 3.5,
+      "pii_type": "US_SSN",
+      "original_text": "529-38-4271",
+      "replacement_text": "[SSN]",
+      "confidence": 0.95
+    }
+  ],
+  "has_pii": true,
+  "pii_types": [
+    "US_SSN"
+  ]
+}

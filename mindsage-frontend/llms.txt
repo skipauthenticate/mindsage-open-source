@@ -1,0 +1,24 @@
+# MindSage Frontend Documentation Map
+
+Use this file as the low-token entrypoint for AI coding tools.
+
+## Core
+
+- `README.md` — setup, Docker, configuration, and project structure.
+- `INSTALL_FOR_AGENTS.md` — agent-oriented install and verification guide.
+- `SECURITY.md` — frontend privacy and security rules.
+- `CONTRIBUTING.md` — development workflow.
+- `AGENTS.md` — coding-agent instructions.
+- `FRONTEND_AUDIT.md` — feature inventory and API surface.
+
+## Key Code
+
+- `src/App.tsx` — app routes and providers.
+- `src/pages/Index.tsx` — main dashboard.
+- `src/pages/Landing.tsx` — public-facing product page.
+- `src/lib/api.ts` — API client and shared types.
+- `src/components/home/MCPSetupPanel.tsx` — MCP client setup UI.
+- `src/components/chat/ChatPanel.tsx` — chat/RAG UI.
+- `src/components/consent/` — consent controls.
+- `src/components/graph/` — knowledge graph canvas.
+- `src/components/explore/` — document, image, and audio viewers.

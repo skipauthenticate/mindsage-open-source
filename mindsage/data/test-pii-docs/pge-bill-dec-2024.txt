@@ -1,0 +1,56 @@
+Pacific Gas and Electric Company
+Billing Statement
+
+Account Information
+===================
+Account Number: 7834-5521-9948
+Service Address: 1847 Maple Grove Drive, Apt 4B
+                San Jose, CA 95126
+
+Customer Name: Donald R. Jones
+Mailing Address: Same as service address
+Phone: (408) 555-7834
+Email: don.jones.1987@gmail.com
+
+Billing Period: December 1, 2024 - December 31, 2024
+Bill Date: January 5, 2025
+Due Date: January 25, 2025
+
+CURRENT CHARGES
+===============
+Electric Service
+  Baseline Usage (350 kWh @ $0.12)           $42.00
+  Over Baseline (127 kWh @ $0.18)            $22.86
+  Delivery Charges                           $18.45
+
+Gas Service
+  Baseline Usage (25 therms @ $1.15)         $28.75
+  Over Baseline (12 therms @ $1.45)          $17.40
+  Delivery Charges                           $12.50
+
+Taxes and Fees                               $14.36
+                                            --------
+Total Current Charges                        $156.32
+
+Previous Balance                             $0.00
+Payments Received (Thank you!)              -$148.67
+                                            --------
+AMOUNT DUE                                   $156.32
+
+USAGE COMPARISON
+================
+This Month:     477 kWh electric, 37 therms gas
+Last Month:     423 kWh electric, 28 therms gas
+Same Month Last Year: 445 kWh electric, 35 therms gas
+
+Energy Saving Tip: Your heating usage increased this month.
+Consider setting your thermostat to 68°F to save up to 10%!
+
+Payment Options:
+- Online: pge.com/myaccount
+- Phone: 1-800-743-5000
+- Mail: PG&E, P.O. Box 997300, Sacramento, CA 95899
+- Auto Pay: Enrolled (Bank account ending in 9912)
+
+Questions? Call us at 1-800-743-5000 or visit pge.com
+Para servicio en español, llame al 1-800-660-6789

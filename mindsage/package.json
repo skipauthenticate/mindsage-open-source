@@ -1,0 +1,53 @@
+{
+  "name": "mindsage-backend",
+  "description": "Privacy-first local knowledge backend and vector store for personal AI memory.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skipauthenticate/mindsage.git"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "tsx watch server/index.ts",
+    "dev:server": "tsx watch server/index.ts",
+    "kill": "fuser -k 3003/tcp 8085/tcp 2>/dev/null; pkill -f 'mcp_server_http.*8085' 2>/dev/null; pkill -f 'tsx.*server/index' 2>/dev/null; sleep 1; echo 'Stale processes killed'",
+    "dev:all": "npm run kill && concurrently \"npm run dev:server\" \"npm run vector-store:start\"",
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check:oss": "bash scripts/check-open-source-ready.sh",
+    "start": "node dist-server/index.js",
+    "start:all": "concurrently \"npm start\" \"npm run vector-store:start\"",
+    "vector-store:start": "cd vector-store && LD_LIBRARY_PATH=lib:$LD_LIBRARY_PATH .venv/bin/python -m mcp_vector_store.mcp_server_http --port 8085 --db-path ../data/vectordb",
+    "vector-store:setup": "pip install -r vector-store/requirements.txt && python vector-store/download_models.py",
+    "data:clean": "curl -s -X DELETE http://localhost:8085/api/documents/clear 2>/dev/null || true && rm -rf data/vectordb/* data/uploads/* data/imports/* && echo 'Cleared vectordb, uploads, and imports'"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "bonjour-service": "^1.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^2.0.2",
+    "pdf-parse": "^2.4.5",
+    "ws": "^8.16.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^22.16.5",
+    "@types/supertest": "^7.2.0",
+    "@types/ws": "^8.5.10",
+    "concurrently": "^8.2.2",
+    "supertest": "^7.2.2",
+    "tsx": "^4.6.0",
+    "typescript": "^5.8.3",
+    "vitest": "^4.1.8"
+  }
+}

@@ -1,0 +1,203 @@
+CVS PHARMACY
+Prescription History Report
+
+========================================
+PATIENT INFORMATION
+========================================
+Patient: Donald Raymond Jones
+Date of Birth: March 15, 1987
+Phone: (408) 555-7834
+Email: don.jones.1987@gmail.com
+
+Primary Address:
+1847 Maple Grove Drive, Apt 4B
+San Jose, CA 95126
+
+Preferred Pharmacy:
+CVS Pharmacy #4521
+1200 Stevens Creek Blvd
+San Jose, CA 95128
+Phone: (408) 555-2789
+Fax: (408) 555-2790
+
+ExtraCare Card: 847291847521
+CVS Carepass Member: Yes (since 2023)
+
+========================================
+CURRENT ACTIVE PRESCRIPTIONS
+========================================
+
+Rx #7834521
+-----------
+Medication: LISINOPRIL 10MG TABLET
+Directions: Take 1 tablet by mouth once daily
+Quantity: 90 tablets
+Days Supply: 90
+Prescriber: Patricia Chen, MD (NPI: 1234567890)
+Written: December 12, 2024
+Last Filled: January 10, 2025
+Refills Remaining: 2 of 3
+Next Refill Available: April 10, 2025
+Auto-Refill: Enabled
+
+Cost:
+  Cash Price: $15.99
+  With Insurance: $5.00 (copay)
+
+Insurance: Blue Shield of California
+Policy: BSC-8847562-01
+
+Rx #7834522
+-----------
+Medication: VITAMIN D3 2000 IU SOFTGEL
+Directions: Take 1 softgel by mouth once daily
+Quantity: 100 softgels
+Days Supply: 100
+Prescriber: Patricia Chen, MD
+Written: December 12, 2024
+Last Filled: January 10, 2025
+Refills Remaining: 11 of 12
+Status: OTC (Over-the-counter)
+
+Cost: $12.99 (no insurance, OTC)
+
+Rx #7834523
+-----------
+Medication: FISH OIL 1000MG SOFTGEL (Omega-3)
+Directions: Take 1 softgel by mouth once daily
+Quantity: 100 softgels
+Days Supply: 100
+Prescriber: Patricia Chen, MD
+Written: December 12, 2024
+Last Filled: January 10, 2025
+Refills Remaining: 11 of 12
+Status: OTC
+
+Cost: $14.99 (no insurance, OTC)
+
+========================================
+PRESCRIPTION HISTORY (2024)
+========================================
+
+January 15, 2024
+Rx #7512847
+Medication: AZITHROMYCIN 250MG (Z-Pack)
+Directions: Take 2 tablets day 1, then 1 tablet days 2-5
+Quantity: 6 tablets
+Prescriber: Urgent Care - Dr. Michael Park
+Diagnosis: Upper respiratory infection
+Cost: $15.00 copay
+
+May 22, 2024
+Rx #7623918
+Medication: HYDROCORTISONE 1% CREAM
+Directions: Apply to affected area twice daily
+Quantity: 30g tube
+Prescriber: Dr. Michael Park, Dermatology
+Diagnosis: Mild eczema, left forearm
+Cost: $8.00 copay
+
+August 10, 2024
+Rx #7734829
+Medication: LISINOPRIL 10MG TABLET
+Directions: Take 1 tablet by mouth once daily
+Quantity: 90 tablets
+Prescriber: Patricia Chen, MD
+Diagnosis: Essential hypertension
+Cost: $5.00 copay
+Notes: Initial prescription for blood pressure
+
+November 15, 2024
+Rx #7834521
+Medication: LISINOPRIL 10MG TABLET (Refill)
+Quantity: 90 tablets
+Cost: $5.00 copay
+
+========================================
+ALLERGIES ON FILE
+========================================
+1. PENICILLIN - Reaction: Rash
+   Documented: March 2015
+   Severity: Moderate
+
+2. SULFA DRUGS - Reaction: Hives
+   Documented: June 2018
+   Severity: Moderate
+
+========================================
+IMMUNIZATION RECORD
+========================================
+
+December 12, 2024
+Vaccine: Influenza (Flu) 2024-2025
+Lot #: FLU2024-8834
+Administered by: PharmD Jennifer Santos
+Location: CVS #4521
+Manufacturer: Sanofi Pasteur
+Next Due: Fall 2025
+
+March 15, 2024
+Vaccine: Tdap (Tetanus, Diphtheria, Pertussis) Booster
+Lot #: TDAP-4829-24
+Administered by: PharmD Michael Wong
+Location: CVS #4521
+Next Due: March 2034 (10 years)
+
+January 5, 2022
+Vaccine: COVID-19 Booster (Pfizer-BioNTech)
+Lot #: EL9264
+Administered by: PharmD Jennifer Santos
+Location: CVS #4521
+
+========================================
+HEALTH SCREENING RESULTS
+========================================
+
+January 10, 2025 - Blood Pressure Check (Free at CVS)
+Reading: 126/82 mmHg
+Category: Elevated (but improved from previous)
+Taken by: PharmD Michael Wong
+
+October 15, 2024 - Blood Pressure Check
+Reading: 134/86 mmHg
+Category: High Blood Pressure Stage 1
+Notes: Patient advised to follow up with PCP
+
+========================================
+INSURANCE INFORMATION
+========================================
+
+Primary Insurance:
+Blue Shield of California
+Policy #: BSC-8847562-01
+Group #: TV-TECH-500
+BIN: 004336
+PCN: ADV
+Member ID: 8847562
+Person Code: 01
+
+Pharmacy Benefits:
+Generic Copay: $5.00
+Brand Preferred: $25.00
+Brand Non-Preferred: $50.00
+Specialty: 20%
+Mail Order: 90-day supply at 2x copay
+
+========================================
+PAYMENT METHODS ON FILE
+========================================
+
+1. Blue Shield Insurance (Primary)
+2. Chase Visa ****4421 (Backup)
+3. FSA Card ****8847 (for eligible expenses)
+
+========================================
+PRESCRIPTION SPENDING (2024)
+========================================
+
+Total Prescriptions Filled: 8
+Total Spent (After Insurance): $71.98
+Insurance Saved You: $287.45
+
+ExtraCare Pharmacy Rewards: $7.00 earned
+Carepass Benefits Used: $120.00 (monthly $10 credits)

@@ -1,0 +1,151 @@
+SUNNY DENTAL CARE
+Patient Dental Records
+
+========================================
+PATIENT INFORMATION
+========================================
+Patient Name: Donald Raymond Jones
+Patient ID: SDC-2021-4829
+Date of Birth: March 15, 1987
+Age: 37
+SSN: 542-78-4829
+
+Address: 1847 Maple Grove Drive, Apt 4B
+         San Jose, CA 95126
+Phone: (408) 555-7834
+Email: don.jones.1987@gmail.com
+
+Emergency Contact:
+Linda Jones (Mother)
+Phone: (925) 555-3341
+
+========================================
+INSURANCE INFORMATION
+========================================
+Primary Insurance: Delta Dental PPO
+Policy Number: DD-847291847
+Group Number: TV-DENTAL-500
+Subscriber: Donald R. Jones (Self)
+Employer: TechVision Corporation
+
+Coverage:
+- Preventive: 100%
+- Basic: 80%
+- Major: 50%
+- Annual Maximum: $2,000
+- Deductible: $50
+
+========================================
+MEDICAL HISTORY
+========================================
+Allergies: Penicillin, Sulfa drugs
+Current Medications:
+- Lisinopril 10mg (blood pressure)
+- Vitamin D3 2000 IU
+- Fish Oil 1000mg
+
+Medical Conditions:
+- Mild hypertension (controlled)
+- No bleeding disorders
+- No heart conditions
+
+Last Medical Exam: December 12, 2024 (Dr. Patricia Chen)
+Primary Care Physician: Dr. Patricia Chen, (650) 555-2200
+
+========================================
+DENTAL HISTORY
+========================================
+
+Last Visit: November 15, 2024
+Next Scheduled: May 15, 2025
+
+VISIT HISTORY:
+
+November 15, 2024 - Routine Cleaning
+Provider: Dr. Sarah Kim, DDS
+Hygienist: Maria Gonzalez
+
+Procedures:
+- D0120 Periodic oral evaluation - $0 (covered)
+- D1110 Prophylaxis (adult cleaning) - $0 (covered)
+- D0274 Bitewing x-rays (4 films) - $0 (covered)
+
+Findings:
+- Overall good oral health
+- Mild tartar buildup on lower anterior teeth
+- Gums healthy, no signs of periodontal disease
+- Existing fillings (#14, #19) in good condition
+
+Recommendations:
+- Continue brushing 2x daily
+- Floss daily (patient admits to "sometimes" flossing)
+- Consider electric toothbrush
+- Return in 6 months
+
+May 10, 2024 - Routine Cleaning
+Provider: Dr. Sarah Kim, DDS
+Procedures: Cleaning, exam, x-rays
+Findings: Healthy, no issues
+
+November 8, 2023 - Filling
+Provider: Dr. Sarah Kim, DDS
+Procedures:
+- D2391 Resin composite filling, #19 (lower left molar)
+Reason: Small cavity detected on x-ray
+Patient Copay: $85.00
+Paid via: Chase card ending 4421
+
+========================================
+TREATMENT PLAN
+========================================
+
+Recommended Future Treatment:
+1. Wisdom teeth evaluation - patient has all 4, partially erupted
+   - May need extraction in future if they cause issues
+   - Currently asymptomatic
+
+2. Consider night guard - shows signs of mild teeth grinding
+   - Estimated cost: $400 (patient portion ~$200)
+   - Discussed, patient declined for now
+
+========================================
+X-RAY HISTORY
+========================================
+
+11/15/2024 - Bitewing x-rays (4)
+05/10/2024 - Bitewing x-rays (4)
+11/08/2023 - Periapical x-ray (#19)
+05/15/2023 - Full mouth series (FMX)
+
+========================================
+BILLING SUMMARY (2024)
+========================================
+
+Total Charges: $423.00
+Insurance Paid: $338.00
+Patient Paid: $85.00
+Outstanding Balance: $0.00
+
+Payment History:
+11/08/2023 - $85.00 - Chase ****4421
+
+========================================
+OFFICE INFORMATION
+========================================
+
+Sunny Dental Care
+Dr. Sarah Kim, DDS
+CA License #: DDS-84729
+
+Address: 2500 Stevens Creek Blvd, Suite 120
+         San Jose, CA 95128
+Phone: (408) 555-DENT (3368)
+Fax: (408) 555-3369
+Email: info@sunnydentalcare.com
+
+Office Hours:
+Mon-Fri: 8:00 AM - 5:00 PM
+Saturday: 9:00 AM - 2:00 PM
+Sunday: Closed
+
+For emergencies after hours: (408) 555-3370

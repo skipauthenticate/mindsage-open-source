@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+dist-ssr
+
+# Tauri
+src-tauri/target
+
+# Development
+.env.local
+.env.*.local
+*.log
+
+# IDE
+.vscode
+.idea
+
+# Git
+.git
+.gitignore
+
+# Tests
+coverage
+
+# Documentation
+docs
+*.md
+
+# Misc
+.DS_Store
+Thumbs.db

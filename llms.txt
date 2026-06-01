@@ -1,0 +1,49 @@
+# MindSage Documentation Map
+
+Use this file as the low-token entrypoint for AI tools.
+
+## Start Here
+
+- `README.md` — overview, quick start, Docker, MCP setup.
+- `INSTALL_FOR_AGENTS.md` — agent install and verification flow.
+- `SECURITY.md` — security boundaries and reporting.
+- `AGENTS.md` — coding-agent operating rules.
+- `docs/COMPETITIVE-ANALYSIS.md` — GBrain/OpenBrain comparison.
+
+## Backend
+
+- `mindsage/README.md` — backend/vector-store setup and API details.
+- `mindsage/AGENTS.md` — backend agent instructions.
+- `mindsage/server/index.ts` — Express API.
+- `mindsage/server/vector-store-client.ts` — vector-store client.
+- `mindsage/server/browser-connector/` — browser capture system.
+- `mindsage/vector-store/mcp_vector_store/mcp_server_http.py` — HTTP/MCP vector store.
+- `mindsage/vector-store/mcp_vector_store/mcp_server_stdio.py` — stdio MCP wrapper.
+- `mindsage/vector-store/mcp_vector_store/agent_setup.py` — dependency-light setup snippet generator and endpoint doctor for AI coding tools.
+- `mindsage/vector-store/mcp_vector_store/agent_schema.py` — dependency-light machine-readable integration schema for AI coding tools.
+- `mindsage/vector-store/mcp_vector_store/agent_pack.py` — dependency-light schema pack, safe path classifier, and corpus-level schema detector for agent intake planning.
+- `mindsage/vector-store/mcp_vector_store/agent_health.py` — dependency-light 0-100 memory health gate for AI coding tools.
+- `mindsage/vector-store/mcp_vector_store/agent_capture.py` — dependency-light CLI for one-shot document or typed-memory capture into local/remote REST APIs.
+- `mindsage/vector-store/mcp_vector_store/agent_think.py` — dependency-light CLI for shell-native cited `think` queries against local/remote REST APIs.
+- `mindsage/vector-store/mcp_vector_store/agent_import.py` — dependency-light CLI for shell-native local text corpus import into local/remote REST APIs.
+- `mindsage/vector-store/mcp_vector_store/agent_search.py` — dependency-light CLI for shell-native ranked passage search against local/remote REST APIs.
+- `mindsage/vector-store/mcp_vector_store/think_tool.py` — PII-safe cited reasoning, gap analysis, cited-answer graph, safe entity graph, and citation-maintenance engine.
+- `mindsage/vector-store/mcp_vector_store/entity_graph.py` — PII-safe organization/location/technology/entity graph builder for cited evidence.
+- `mindsage/vector-store/mcp_vector_store/maintenance_tool.py` — actionable stale/undated/weak/conflicted citation repair plans, background maintenance snapshots, schedulable review plans, dry-run apply batches, and redacted JSONL maintenance ledgers.
+- `mindsage/vector-store/mcp_vector_store/memory_tool.py` — typed memory records, lifecycle filters, retention, workspace summaries, actor activity, audit timelines, and relation graphs.
+- `mindsage/vector-store/mcp_vector_store/remote_auth.py` — dependency-light bearer-token rules for authenticated remote MCP.
+- `mindsage/vector-store/mcp_vector_store/agent_evals.py` — replayable agent-memory evals.
+- `mindsage/vector-store/mcp_vector_store/corpus_evals.py` — replayable fixture-corpus retrieval and PII-safety evals.
+- `mindsage/vector-store/mcp_vector_store/agent_benchmarks.py` — dependency-light benchmarks for agent-facing features.
+- `mindsage/vector-store/mcp_vector_store/pii_protection.py` — PII protection.
+
+## Frontend
+
+- `mindsage-frontend/README.md` — frontend setup.
+- `mindsage-frontend/AGENTS.md` — frontend agent instructions.
+- `mindsage-frontend/src/lib/api.ts` — API client/types.
+- `mindsage-frontend/src/components/home/MCPSetupPanel.tsx` — MCP setup UI.
+- `mindsage-frontend/src/components/chat/ChatPanel.tsx` — chat/RAG UI.
+- `mindsage-frontend/src/components/consent/` — consent controls.
+- `mindsage-frontend/src/components/graph/` — graph canvas.
+- `mindsage-frontend/src/components/explore/` — document/media viewers.

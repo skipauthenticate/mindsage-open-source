@@ -1,0 +1,225 @@
+WALGREENS PHARMACY
+Patient Health Record Summary
+
+========================================
+PATIENT PROFILE
+========================================
+Name: Donald Raymond Jones
+Date of Birth: March 15, 1987
+Gender: Male
+Patient ID: WAG-847291847
+
+Address:
+1847 Maple Grove Drive, Apt 4B
+San Jose, CA 95126
+
+Phone: (408) 555-7834
+Email: don.jones.1987@gmail.com
+
+Preferred Store: Walgreens #5847
+                 1500 Saratoga Ave
+                 San Jose, CA 95129
+                 Phone: (408) 555-9247
+
+myWalgreens Rewards: 847291847521
+Balance Rewards Points: 24,847
+
+========================================
+INSURANCE ON FILE
+========================================
+Primary Medical:
+Blue Shield of California
+Policy: BSC-8847562-01
+Group: TV-TECH-500
+Member ID: 8847562-01
+RxBIN: 004336
+RxPCN: ADV
+
+Secondary: None
+
+========================================
+HEALTH PROFILE
+========================================
+
+Allergies:
+1. PENICILLIN
+   Reaction: Rash
+   Severity: Moderate
+   Documented: 2015
+
+2. SULFA DRUGS
+   Reaction: Hives, difficulty breathing
+   Severity: Severe
+   Documented: 2018
+
+Current Conditions:
+- Hypertension (Essential) - ICD-10: I10
+- Anxiety Disorder - ICD-10: F41.1
+- Seasonal Allergies - ICD-10: J30.2
+
+Current Medications (External - per patient report):
+- Lisinopril 10mg daily (filled at CVS/Costco)
+- Vitamin D3 2000 IU daily (OTC)
+- Fish Oil 1000mg daily (OTC)
+
+========================================
+WALGREENS PRESCRIPTION HISTORY
+========================================
+
+Rx #W847291001 - FILLED
+Date: March 15, 2024
+Medication: ZYRTEC (Cetirizine) 10mg
+Quantity: 90 tablets
+Directions: Take 1 tablet daily for allergies
+Prescriber: Patricia Chen, MD (650) 555-2200
+Status: Filled
+Cost: $24.99 (OTC equivalent purchased)
+
+Rx #W847291002 - FILLED
+Date: August 20, 2024
+Medication: FLONASE (Fluticasone) Nasal Spray
+Quantity: 1 bottle (120 sprays)
+Directions: 2 sprays each nostril daily
+Prescriber: Patricia Chen, MD
+Status: Filled
+Cost: $22.99 (OTC)
+
+========================================
+IMMUNIZATION RECORD
+========================================
+
+COVID-19 Vaccines:
+1. Pfizer-BioNTech Dose 1
+   Date: April 15, 2021
+   Lot: EL9261
+   Site: Walgreens #5847
+   Administrator: PharmD Robert Kim
+
+2. Pfizer-BioNTech Dose 2
+   Date: May 6, 2021
+   Lot: EL9262
+   Site: Walgreens #5847
+
+3. Pfizer Booster (Bivalent)
+   Date: October 20, 2022
+   Lot: FL1847
+   Site: Walgreens #5847
+
+Flu Vaccines:
+- 2024-2025: Not yet received at Walgreens (received at CVS)
+- 2023-2024: September 28, 2023, Walgreens #5847
+- 2022-2023: October 5, 2022, Walgreens #5847
+
+Other Immunizations:
+- Tdap: March 15, 2024 (birthday, at CVS)
+
+========================================
+HEALTH SCREENINGS
+========================================
+
+Blood Pressure Checks (Free at Walgreens):
+
+January 15, 2025
+Reading: 124/80 mmHg
+Pulse: 72 bpm
+Taken by: Self-service kiosk
+Result: Elevated - recommend follow-up with PCP
+
+October 10, 2024
+Reading: 132/86 mmHg
+Pulse: 78 bpm
+Result: High Stage 1 - see doctor
+
+June 5, 2024
+Reading: 138/88 mmHg
+Pulse: 82 bpm
+Result: High Stage 1 - urgent follow-up recommended
+Note: This reading led to patient seeing PCP and starting Lisinopril
+
+========================================
+OTC PURCHASE HISTORY (Health-Related)
+========================================
+
+January 20, 2025:
+- Advil 200ct - $18.99
+- NyQuil Severe - $14.99
+- Halls Cough Drops - $4.99
+- Tissue 4-pack - $8.99
+Total: $47.96
+Payment: Chase ****4421
+
+January 5, 2025:
+- Centrum Men's Multivitamin 200ct - $24.99
+- Nature Made Magnesium - $12.99
+- Melatonin 5mg 90ct - $9.99
+Total: $47.97
+Payment: Chase ****4421
+
+December 10, 2024:
+- Band-Aid Variety Pack - $8.99
+- Neosporin - $7.99
+- Hydrocortisone 1% - $6.99
+- Benadryl 100ct - $14.99
+Total: $38.96
+Payment: Chase ****4421
+
+========================================
+WALGREENS HEALTHCARE CLINIC VISIT
+========================================
+
+Visit Date: February 28, 2024
+Location: Walgreens Healthcare Clinic #5847
+Provider: Sarah Johnson, NP
+Visit Type: Minor Illness
+
+Chief Complaint: Seasonal allergy symptoms - sneezing, itchy eyes, runny nose
+
+Assessment: Allergic rhinitis (J30.9)
+
+Treatment:
+- OTC Zyrtec 10mg daily
+- OTC Flonase nasal spray
+- Avoid outdoor activities when pollen high
+
+Visit Cost: $89.00
+Insurance Paid: $71.20
+Patient Copay: $17.80 (paid Chase ****4421)
+
+Follow-up: As needed, or see PCP if symptoms worsen
+
+========================================
+PHOTO & PERSONAL INFORMATION
+========================================
+
+Photo ID on File: CA Driver's License
+DL Number: D4829187
+Expiration: March 2025
+Note: Patient should update ID after renewal
+
+HIPAA Authorization on File: Yes (dated 01/15/2023)
+Authorized to discuss with: Linda Jones (Mother)
+Phone: (925) 555-3341
+
+Marketing Preferences:
+- Email promotions: Yes
+- Text alerts: Yes (for Rx ready notifications)
+- Mail: No
+
+========================================
+myWALGREENS REWARDS
+========================================
+
+Member ID: 847291847521
+Status: myWalgreens+
+Monthly Fee: $0 (promotional)
+
+Points Balance: 24,847
+Cash Value: $24.85
+
+2024 Earnings:
+- Purchases: 18,234 points
+- Health Goals: 5,000 bonus points
+- Immunizations: 2,000 bonus points
+
+Recent Redemptions:
+- Dec 2024: 10,000 points = $10 off purchase

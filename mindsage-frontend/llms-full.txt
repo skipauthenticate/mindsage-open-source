@@ -1,0 +1,23 @@
+# MindSage Frontend Agent Context
+
+MindSage frontend is a React 18, TypeScript, Vite, Tailwind, shadcn/ui, and TanStack Query application for local-first personal AI memory.
+
+It talks to the backend through `/api`, usually proxied to `http://localhost:3003`. The vector store MCP endpoint is served by the backend stack at `http://localhost:8085/sse`.
+
+Critical rules:
+
+- Do not commit user data, credentials, screenshots with private content, browser captures, uploads, or exports.
+- Preserve consent, PII status, original/redacted media states, and backend-only secret handling.
+- Before claiming success, run the relevant test/build/lint command and inspect the output.
+
+Common commands:
+
+```bash
+npm install
+npm run dev
+npm test
+npm run build
+npm run lint
+```
+
+Backend companion repo: `../mindsage`.

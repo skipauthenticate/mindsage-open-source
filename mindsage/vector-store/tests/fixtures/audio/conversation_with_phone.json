@@ -1,0 +1,78 @@
+{
+  "filename": "conversation_with_phone.wav",
+  "description": "Conversation mentioning a phone number",
+  "duration_seconds": 6.82,
+  "sample_rate": 16000,
+  "transcript": "Please call me back at 555-123-4567 when you get a chance",
+  "words": [
+    {
+      "word": "Please",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "call",
+      "start": 0.4,
+      "end": 0.8
+    },
+    {
+      "word": "me",
+      "start": 0.8,
+      "end": 1.2
+    },
+    {
+      "word": "back",
+      "start": 1.2,
+      "end": 1.6
+    },
+    {
+      "word": "at",
+      "start": 1.6,
+      "end": 2.0
+    },
+    {
+      "word": "555-123-4567",
+      "start": 2.0,
+      "end": 2.4
+    },
+    {
+      "word": "when",
+      "start": 2.4,
+      "end": 2.8
+    },
+    {
+      "word": "you",
+      "start": 2.8,
+      "end": 3.2
+    },
+    {
+      "word": "get",
+      "start": 3.2,
+      "end": 3.6
+    },
+    {
+      "word": "a",
+      "start": 3.6,
+      "end": 4.0
+    },
+    {
+      "word": "chance",
+      "start": 4.0,
+      "end": 4.4
+    }
+  ],
+  "pii_regions": [
+    {
+      "start_time": 2.0,
+      "end_time": 3.2,
+      "pii_type": "PHONE_NUMBER",
+      "original_text": "555-123-4567",
+      "replacement_text": "[PHONE]",
+      "confidence": 0.95
+    }
+  ],
+  "has_pii": true,
+  "pii_types": [
+    "PHONE_NUMBER"
+  ]
+}

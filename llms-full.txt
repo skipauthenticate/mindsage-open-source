@@ -1,0 +1,64 @@
+# MindSage Agent Context
+
+MindSage is a local-first personal AI memory platform with a full backend, vector store, MCP integration, and React frontend.
+
+It is positioned against GBrain and OpenBrain as follows:
+
+- GBrain strength: agent-native install, MCP distribution, `think` synthesis, graph search, skillpacks, evals.
+- OpenBrain strength: typed/versioned memories, workspaces, audit trails, lifecycle states, retention and governance.
+- MindSage strength: local multimodal personal data, browser/AI chat capture, LocalSend, privacy-preserving text/image/audio PII workflows, consent controls, and a full UI.
+- MindSage now ships OpenBrain-style typed memory for claims, decisions, tasks, artifacts, entities, relations, and thought summaries with workspace scope, lifecycle state, retention TTL, value hashes, workspace summaries, actor activity, audit timelines, and relation graphs.
+- MindSage now ships replayable agent-memory evals for cited `think`, cited-answer graphs, safe entity graphs, citation-maintenance actions, typed-memory governance, workspace summaries, actor activity, graph traversal, audit timelines, and PII-session safety.
+- MindSage now ships `npm run agent:setup -- <client>` and `npm run agent:doctor` for Claude Code, Claude Desktop, Codex, Cursor, Gemini CLI, VS Code, Windsurf, Zed, Continue, Trae, and generic MCP JSON setup.
+- MindSage now ships `npm run agent:schema -- --json` for a machine-readable AI-tool contract covering MCP tools, REST endpoints, CLI commands, typed-memory shape, and safety defaults.
+- MindSage now ships `npm run agent:pack -- --json` for a built-in schema pack, `npm run agent:pack -- --classify <path>` for safe path classification, and `npm run agent:pack -- --detect <path> --json` for corpus-level schema candidates without echoing filenames, absolute paths, or document text.
+- MindSage now ships `npm run agent:health -- --json` for a 0-100 memory health gate over freshness, date coverage, duplicate groups, entity consolidation, and replacement candidates.
+- MindSage now ships `npm run agent:think -- "What changed?"` for shell-native cited reasoning through local/remote REST APIs without echoing private questions or bearer tokens in the compact report.
+- MindSage now ships `npm run agent:import -- ./notes` for shell-native local text corpus import through local/remote REST APIs with duplicate skipping, metadata support, and token-safe `--dry-run`.
+- MindSage now ships `npm run agent:search -- "remote MCP auth"` for shell-native ranked passage search through local/remote REST APIs with LLM-safe metadata defaults.
+- MindSage now ships `npm run agent:capture -- "Remember this"` for one-shot document or typed-memory capture into local/remote REST APIs with bearer-token support, token-safe `--dry-run`, and PII-session metadata stripping.
+- For sensitive capture text, prefer stdin with `npm --silent run agent:capture -- ...` so npm does not print the command banner.
+- MindSage now ships `npm run maintenance:snapshot` for stale-source, undated-source, duplicate-document, safe-entity-consolidation, and replacement-candidate reports.
+- MindSage now ships `npm run maintenance:plan -- --json` for schedulable recurring scans and review-required refresh/date/dedupe/entity/connector-sync jobs without exposing raw document text or PII session IDs.
+- MindSage now ships `npm run maintenance:apply -- --json` for dry-run review batches that turn maintenance plans into pending write requests without exposing raw document text, filenames, paths, PII session IDs, or person entities.
+- MindSage now ships `npm run maintenance:apply -- --ledger-path <path>` and `--ledger-report <path>` for append-only redacted maintenance audit history.
+
+Critical safety rules:
+
+- Runtime `mindsage/data/` is private and ignored, except synthetic fixtures in `mindsage/data/test-pii-docs/`.
+- LLM/MCP outputs must be redacted or anonymized by default.
+- The `think` tool should be the default agent entrypoint for cited, PII-safe reasoning over private memory, including answer/source/concept/contradiction graph links, safe entity graph links, and citation-maintenance actions.
+- Use `npm run agent:schema -- --json` when an AI coding tool needs a machine-readable contract instead of scraping docs.
+- Use `npm run agent:pack -- --classify <path>` when an agent needs a safe intake category and typed-memory default before importing local data.
+- Use `npm run agent:pack -- --detect <path> --json` when an agent needs GBrain-style schema detection over a local corpus without exposing names or content.
+- Use `npm run agent:health -- --json` when an agent needs a read-only health gate before trusting retrieved context.
+- Use `npm run agent:think -- "What changed?"` when an agent needs a quick shell-native read path without opening an MCP client.
+- Use `npm run agent:import -- ./notes` when an agent needs to bulk-ingest local text or markdown into `/api/documents/batch` without hand-writing REST calls.
+- Use `npm run agent:search -- "remote MCP auth"` when an agent needs ranked passage evidence from `/api/search/enhanced` before deciding whether to synthesize.
+- Use `write_memory`, `search_memory`, `memory_workspace_info`, `memory_actor_activity`, `memory_timeline`, and `memory_graph` when an agent needs structured, versioned, governed, graph-assisted memory instead of raw document retrieval.
+- Use `npm run agent:capture -- "Remember this"` when an agent needs a quick CLI write path without opening an MCP client.
+- Use `npm run maintenance:plan -- --json` when an agent needs a GBrain-style maintenance loop that remains review-before-mutation.
+- Use `npm run maintenance:apply -- --json` when an agent needs a reviewable apply batch before any maintenance executor mutates data.
+- Use `npm run maintenance:apply -- --ledger-path /tmp/mindsage-maintenance-ledger.jsonl` when an agent needs an audit event for a maintenance apply batch.
+- Remote MCP must use public mode plus a 32+ character bearer token through `VECTOR_STORE_API_KEY` or `MCP_VECTOR_STORE_API_KEY`; stdio bridges can forward the same token.
+- Fixture-corpus evals must stay redacted and run with `npm run eval:corpus` before claiming retrieval-quality progress.
+- Agent-facing feature work should include `npm run benchmark:agents` before claiming benchmark coverage.
+- Do not commit secrets, cookies, browser profiles, captures, uploads, exports, vector databases, model caches, or generated redactions.
+- Before claiming success, run and inspect the relevant command output.
+
+Common verification:
+
+```bash
+npm run check:oss
+npm run test
+npm run test:python
+npm run eval:agents
+npm run eval:corpus
+npm run benchmark:agents
+npm run maintenance:snapshot
+npm run maintenance:plan
+npm run maintenance:apply
+npm run maintenance:apply -- --ledger-report /tmp/mindsage-maintenance-ledger.jsonl
+npm run build
+npm run lint
+```

@@ -1,0 +1,77 @@
+{
+  "filename": "conversation_no_pii.wav",
+  "description": "Conversation with no PII",
+  "duration_seconds": 4.54,
+  "sample_rate": 16000,
+  "transcript": "The weather today is sunny and warm with a high of seventy degrees",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "weather",
+      "start": 0.4,
+      "end": 0.8
+    },
+    {
+      "word": "today",
+      "start": 0.8,
+      "end": 1.2
+    },
+    {
+      "word": "is",
+      "start": 1.2,
+      "end": 1.6
+    },
+    {
+      "word": "sunny",
+      "start": 1.6,
+      "end": 2.0
+    },
+    {
+      "word": "and",
+      "start": 2.0,
+      "end": 2.4
+    },
+    {
+      "word": "warm",
+      "start": 2.4,
+      "end": 2.8
+    },
+    {
+      "word": "with",
+      "start": 2.8,
+      "end": 3.2
+    },
+    {
+      "word": "a",
+      "start": 3.2,
+      "end": 3.6
+    },
+    {
+      "word": "high",
+      "start": 3.6,
+      "end": 4.0
+    },
+    {
+      "word": "of",
+      "start": 4.0,
+      "end": 4.4
+    },
+    {
+      "word": "seventy",
+      "start": 4.4,
+      "end": 4.8
+    },
+    {
+      "word": "degrees",
+      "start": 4.8,
+      "end": 5.2
+    }
+  ],
+  "pii_regions": [],
+  "has_pii": false,
+  "pii_types": []
+}

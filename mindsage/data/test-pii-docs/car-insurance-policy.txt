@@ -1,0 +1,89 @@
+STATE FARM INSURANCE
+Auto Insurance Policy Declaration
+
+Policy Number: 847-5521-C48-29
+Policy Period: October 1, 2024 to April 1, 2025
+
+NAMED INSURED
+=============
+Name: Donald Raymond Jones
+Date of Birth: March 15, 1987
+Driver's License: CA D4829187 (California)
+Address: 1847 Maple Grove Drive, Apt 4B
+         San Jose, CA 95126
+Phone: (408) 555-7834
+Email: don.jones.1987@gmail.com
+SSN: XXX-XX-4829
+
+VEHICLE INFORMATION
+==================
+Year: 2021
+Make: Honda
+Model: Civic EX
+VIN: 2HGFC2F64MH512847
+Color: Lunar Silver Metallic
+Odometer: 32,458 miles
+Lienholder: Honda Financial Services
+            Account #: HFS-8847562-21
+
+COVERAGE SUMMARY
+================
+Bodily Injury Liability:        $100,000/$300,000
+Property Damage Liability:      $50,000
+Medical Payments:               $5,000
+Uninsured Motorist:            $100,000/$300,000
+Collision Deductible:          $500
+Comprehensive Deductible:      $250
+Rental Reimbursement:          $40/day, 30 days max
+Roadside Assistance:           Included
+
+PREMIUM BREAKDOWN
+=================
+Bodily Injury:                 $312.00
+Property Damage:               $189.00
+Medical Payments:              $24.00
+Uninsured Motorist:           $87.00
+Collision:                     $445.00
+Comprehensive:                 $134.00
+Rental Reimbursement:          $36.00
+Roadside Assistance:           $12.00
+                              --------
+Semi-Annual Premium:           $1,239.00
+
+DISCOUNTS APPLIED
+=================
+- Good Driver Discount: 20%
+- Multi-Policy (Renters): 10%
+- Paperless Billing: 5%
+- Auto-Pay: 3%
+
+PAYMENT INFORMATION
+==================
+Payment Method: Auto-Pay
+Bank: First National Bank of California
+Account: ****9912
+Monthly Payment: $189.00
+Next Payment: January 20, 2025
+
+ADDITIONAL DRIVERS
+=================
+None listed
+
+CLAIMS HISTORY
+=============
+No claims in the past 5 years
+
+AGENT INFORMATION
+=================
+Agent: Michael Thompson
+Agency: State Farm - San Jose Central
+Address: 1200 Coleman Ave, Suite 100
+         San Jose, CA 95110
+Phone: (408) 555-8900
+Email: michael.thompson.b47h@statefarm.com
+
+For 24-hour claims service, call 1-800-SF-CLAIM (1-800-732-5246)
+For roadside assistance, call 1-800-428-4625
+
+Policy documents available at statefarm.com
+Login email: don.jones.1987@gmail.com

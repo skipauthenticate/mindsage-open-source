@@ -1,0 +1,52 @@
+# MindSage Documentation Map
+
+Use this file as the low-token entrypoint for AI coding tools.
+
+## Core
+
+- `README.md` — product overview, Docker, backend/vector-store setup, API summary.
+- `INSTALL_FOR_AGENTS.md` — step-by-step install and MCP setup for AI agents.
+- `SECURITY.md` — security boundaries and reporting process.
+- `CONTRIBUTING.md` — development workflow and privacy rules.
+- `AGENTS.md` — operational instructions for coding agents.
+
+## Architecture And Strategy
+
+- `docs/PRODUCT-STRATEGY.md` — product direction and local-first positioning.
+- `docs/COMPETITIVE-ANALYSIS.md` — comparison with GBrain and OpenBrain.
+- `docs/PII-ARCHITECTURE.md` — PII anonymization and de-anonymization model.
+- `docs/CONSENT-DESIGN.md` — consent filtering design.
+- `docs/BROWSER-CONNECTOR-DESIGN.md` — browser connector architecture.
+- `docs/CHROME-WEB-STORE-PLAN.md` — extension publishing plan.
+
+## Security And Quality
+
+- `docs/SECURITY-AUDIT-2026.md` — security audit and fixes.
+- `docs/RED-TEAM-REPORT-2026.md` — red-team findings and fixes.
+- `docs/SEARCH-PERFORMANCE.md` — search benchmark report.
+- `scripts/check-open-source-ready.sh` — local open-source readiness gate.
+
+## Key Code
+
+- `server/index.ts` — Express API.
+- `server/vector-store-client.ts` — backend client for vector store.
+- `server/browser-connector/` — browser launch, capture, and extension routes.
+- `server/connectors/` — connector implementations.
+- `vector-store/mcp_vector_store/mcp_server_http.py` — vector store HTTP/MCP server.
+- `vector-store/mcp_vector_store/mcp_server_stdio.py` — stdio MCP wrapper.
+- `vector-store/mcp_vector_store/agent_schema.py` — dependency-light machine-readable integration schema for AI coding tools.
+- `vector-store/mcp_vector_store/agent_pack.py` — dependency-light schema pack, safe path classifier, and corpus-level schema detector for agent intake planning.
+- `vector-store/mcp_vector_store/agent_health.py` — dependency-light 0-100 memory health gate for AI coding tools.
+- `vector-store/mcp_vector_store/agent_capture.py` — dependency-light CLI for one-shot document or typed-memory capture into local/remote REST APIs.
+- `vector-store/mcp_vector_store/agent_think.py` — dependency-light CLI for shell-native cited `think` queries against local/remote REST APIs.
+- `vector-store/mcp_vector_store/agent_import.py` — dependency-light CLI for shell-native local text corpus import into local/remote REST APIs.
+- `vector-store/mcp_vector_store/agent_search.py` — dependency-light CLI for shell-native ranked passage search against local/remote REST APIs.
+- `vector-store/mcp_vector_store/think_tool.py` — PII-safe cited reasoning, gap analysis, cited-answer graph, safe entity graph, and citation-maintenance engine.
+- `vector-store/mcp_vector_store/entity_graph.py` — PII-safe organization/location/technology/entity graph builder for cited evidence.
+- `vector-store/mcp_vector_store/maintenance_tool.py` — actionable stale/undated/weak/conflicted citation repair plans, background snapshots, schedulable review plans, dry-run apply batches, and redacted JSONL maintenance ledgers.
+- `vector-store/mcp_vector_store/memory_tool.py` — typed memory records, lifecycle filters, retention, workspace summaries, actor activity, audit timelines, and relation graphs.
+- `vector-store/mcp_vector_store/remote_auth.py` — dependency-light bearer-token rules for authenticated remote MCP.
+- `vector-store/mcp_vector_store/agent_evals.py` — replayable agent-memory evals.
+- `vector-store/mcp_vector_store/corpus_evals.py` — replayable fixture-corpus retrieval and PII-safety evals.
+- `vector-store/mcp_vector_store/pii_protection.py` — PII protection.
+- `vector-store/mcp_vector_store/txtai_store.py` — txtai-backed search storage.

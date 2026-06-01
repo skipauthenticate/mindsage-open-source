@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 340px;
+      padding: 16px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 14px;
+      color: #1f2937;
+      background: #fff;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .header img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .header h1 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #111827;
+    }
+
+    /* Setup view */
+    .setup-section {
+      margin-bottom: 16px;
+    }
+
+    .setup-section label {
+      display: block;
+      font-size: 13px;
+      color: #6b7280;
+      margin-bottom: 6px;
+    }
+
+    .url-input-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .url-input {
+      flex: 1;
+      padding: 8px 12px;
+      border: 1px solid #d1d5db;
+      border-radius: 6px;
+      font-size: 13px;
+      outline: none;
+    }
+
+    .url-input:focus {
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+    }
+
+    .test-btn {
+      padding: 8px 12px;
+      background: #f3f4f6;
+      border: 1px solid #d1d5db;
+      border-radius: 6px;
+      font-size: 13px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .test-btn:hover { background: #e5e7eb; }
+
+    .save-btn {
+      width: 100%;
+      padding: 10px;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .save-btn:hover { background: #2563eb; }
+    .save-btn:disabled { background: #9ca3af; cursor: not-allowed; }
+
+    /* Connection status */
+    .connection-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 12px;
+      background: #f0fdf4;
+      border: 1px solid #dcfce7;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      font-size: 13px;
+    }
+
+    .connection-bar.disconnected {
+      background: #fef2f2;
+      border-color: #fecaca;
+    }
+
+    .connection-bar .left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .connection-bar .change-link {
+      color: #3b82f6;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .connection-bar .change-link:hover { text-decoration: underline; }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .status-dot.connected { background: #22c55e; }
+    .status-dot.disconnected { background: #ef4444; }
+    .status-dot.error { background: #f59e0b; }
+    .status-dot.unknown { background: #9ca3af; }
+
+    /* Site rows */
+    .sites-section {
+      margin-bottom: 16px;
+    }
+
+    .site-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #f3f4f6;
+    }
+
+    .site-row:last-child { border-bottom: none; }
+
+    .site-name {
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    .site-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .connect-btn {
+      padding: 6px 14px;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    .connect-btn:hover { background: #2563eb; }
+    .connect-btn:disabled { background: #9ca3af; cursor: not-allowed; }
+
+    .connect-btn.syncing {
+      background: #f59e0b;
+    }
+
+    .site-badge {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-weight: 500;
+    }
+
+    .site-badge.connected {
+      background: #dcfce7;
+      color: #166534;
+    }
+
+    .site-badge.syncing {
+      background: #fef3c7;
+      color: #92400e;
+    }
+
+    .site-badge.not-connected {
+      background: #f3f4f6;
+      color: #6b7280;
+    }
+
+    /* Stats section */
+    .stats-section {
+      padding: 12px;
+      background: #f0fdf4;
+      border-radius: 8px;
+      border: 1px solid #dcfce7;
+      margin-bottom: 16px;
+    }
+
+    .stats-title {
+      font-weight: 500;
+      color: #166534;
+      margin-bottom: 8px;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-value {
+      font-size: 20px;
+      font-weight: 600;
+      color: #166534;
+    }
+
+    .stat-label {
+      font-size: 11px;
+      color: #4ade80;
+      text-transform: uppercase;
+    }
+
+    /* Sync section (retained for Jetson local use) */
+    .sync-section {
+      margin-bottom: 16px;
+    }
+
+    .sync-btn {
+      width: 100%;
+      padding: 10px;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background 0.2s;
+    }
+
+    .sync-btn:hover { background: #2563eb; }
+    .sync-btn:disabled { background: #9ca3af; cursor: not-allowed; }
+    .sync-btn.syncing { background: #f59e0b; }
+    .sync-btn.abort { background: #ef4444; }
+
+    .sync-status {
+      margin-top: 12px;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 13px;
+    }
+
+    .sync-status.progress {
+      background: #fef3c7;
+      border: 1px solid #fcd34d;
+      color: #92400e;
+    }
+
+    .sync-status.complete {
+      background: #dcfce7;
+      border: 1px solid #86efac;
+      color: #166534;
+    }
+
+    .sync-status-text {
+      margin-bottom: 8px;
+    }
+
+    .progress-bar {
+      height: 6px;
+      background: #fde68a;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: #f59e0b;
+      transition: width 0.3s;
+    }
+
+    .sync-status.complete .progress-bar {
+      background: #86efac;
+    }
+
+    .sync-status.complete .progress-bar-fill {
+      background: #22c55e;
+    }
+
+    /* Status message */
+    .status-message {
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+
+    .status-message.success {
+      background: #dcfce7;
+      color: #166534;
+    }
+
+    .status-message.error {
+      background: #fef2f2;
+      color: #991b1b;
+    }
+
+    .footer {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid #e5e7eb;
+      text-align: center;
+      font-size: 11px;
+      color: #9ca3af;
+    }
+
+    .footer a {
+      color: #6b7280;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .spinner {
+      width: 14px;
+      height: 14px;
+      border: 2px solid #ffffff;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      display: inline-block;
+    }
+
+    .spinner.dark {
+      border-color: #6b7280;
+      border-top-color: transparent;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="../icons/icon48.png" alt="MindSage">
+    <h1>MindSage Companion</h1>
+  </div>
+
+  <!-- Setup View -->
+  <div id="setup-view">
+    <div class="setup-section">
+      <label for="server-url">MindSage Server URL</label>
+      <div class="url-input-row">
+        <input type="text" id="server-url" class="url-input" placeholder="http://192.168.1.x:3003">
+        <button id="test-btn" class="test-btn">Test</button>
+      </div>
+      <div id="setup-status" class="status-message hidden"></div>
+      <button id="save-btn" class="save-btn">Save & Connect</button>
+    </div>
+  </div>
+
+  <!-- Connected View -->
+  <div id="connected-view" class="hidden">
+    <!-- Connection bar -->
+    <div id="connection-bar" class="connection-bar">
+      <div class="left">
+        <span id="connection-dot" class="status-dot unknown"></span>
+        <span id="connection-url"></span>
+      </div>
+      <span id="change-server" class="change-link">Change</span>
+    </div>
+
+    <!-- Per-site connect buttons (rendered dynamically by popup.js) -->
+    <div class="sites-section">
+      <div id="sites-list"></div>
+    </div>
+
+    <!-- Sync section (for Jetson local mode) -->
+    <div id="local-sync-section" class="sync-section hidden">
+      <button id="sync-btn" class="sync-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 12a9 9 0 11-6.219-8.56"/>
+          <polyline points="21 3 21 9 15 9"/>
+        </svg>
+        Sync All Conversations
+      </button>
+      <div id="sync-status" class="sync-status progress" style="display: none;">
+        <div class="sync-status-text" id="sync-status-text">Starting sync...</div>
+        <div class="progress-bar">
+          <div class="progress-bar-fill" id="progress-bar-fill" style="width: 0%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-section">
+      <div class="stats-title">Indexed</div>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div id="conversation-count" class="stat-value">-</div>
+          <div class="stat-label">Conversations</div>
+        </div>
+        <div class="stat-item">
+          <div id="message-count" class="stat-value">-</div>
+          <div class="stat-label">Messages</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a id="open-link" href="#" target="_blank">Open MindSage</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

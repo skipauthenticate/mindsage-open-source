@@ -1,0 +1,210 @@
+SUTTER HEALTH URGENT CARE
+Visit Summary & After-Visit Instructions
+
+========================================
+PATIENT INFORMATION
+========================================
+Patient Name: Donald Raymond Jones
+Date of Birth: March 15, 1987
+Age: 37 years / Male
+MRN: PAM-4421887
+SSN: XXX-XX-4829
+
+Address: 1847 Maple Grove Drive, Apt 4B
+         San Jose, CA 95126
+Phone: (408) 555-7834
+Email: don.jones.1987@gmail.com
+
+Primary Care Provider: Patricia Chen, MD
+PCP Phone: (650) 555-2200
+
+========================================
+VISIT INFORMATION
+========================================
+Visit Date: August 15, 2024
+Time In: 10:23 AM
+Time Out: 11:45 AM
+Visit Type: Urgent Care - Walk-in
+
+Location: Sutter Urgent Care - San Jose
+          2585 Samaritan Drive, Suite 100
+          San Jose, CA 95124
+Phone: (408) 555-8700
+
+Attending Provider: Michael Park, MD
+License #: A-84729
+NPI: 2345678901
+
+========================================
+CHIEF COMPLAINT
+========================================
+"Cold symptoms for 5 days, now have fever and productive cough"
+
+History of Present Illness:
+37-year-old male presents with upper respiratory symptoms x 5 days.
+Started with sore throat and runny nose, now progressed to productive
+cough with yellow-green sputum. Developed fever of 101.2°F this morning.
+Reports fatigue and body aches. Denies shortness of breath, chest pain.
+
+Has been taking OTC Tylenol and DayQuil with minimal relief.
+
+========================================
+VITAL SIGNS
+========================================
+Temperature: 101.2°F (oral)
+Blood Pressure: 128/84 mmHg
+Heart Rate: 88 bpm
+Respiratory Rate: 18 breaths/min
+Oxygen Saturation: 98% on room air
+Weight: 178 lbs
+Height: 5'10"
+BMI: 25.5
+
+Pain Level: 3/10 (headache, body aches)
+
+========================================
+MEDICAL HISTORY
+========================================
+Current Medications:
+- Lisinopril 10mg daily (hypertension)
+- Vitamin D3 2000 IU daily
+- Fish Oil 1000mg daily
+
+Allergies:
+- PENICILLIN → Rash
+- SULFA DRUGS → Hives
+
+Past Medical History:
+- Essential hypertension (diagnosed 2024)
+- No diabetes
+- No asthma
+
+Surgical History:
+- Appendectomy (age 12)
+
+Social History:
+- Non-smoker
+- Occasional alcohol (2-3 drinks/week)
+- Software engineer, desk job
+- Lives alone
+
+========================================
+PHYSICAL EXAMINATION
+========================================
+General: Alert, appears mildly ill, no acute distress
+HEENT:
+- Eyes: Conjunctivae clear, no discharge
+- Ears: TMs clear bilaterally, no effusion
+- Nose: Mild erythema, clear discharge
+- Throat: Erythematous, no exudates, no tonsillar enlargement
+- Neck: No lymphadenopathy
+
+Cardiovascular: Regular rate and rhythm, no murmurs
+Lungs: Clear to auscultation bilaterally, no wheezes/rales/rhonchi
+Abdomen: Soft, non-tender
+
+========================================
+DIAGNOSTIC TESTS
+========================================
+
+Rapid Strep Test: NEGATIVE
+COVID-19 Rapid Antigen: NEGATIVE
+Influenza A/B Rapid: NEGATIVE
+
+Assessment: Viral upper respiratory infection with acute bronchitis
+
+========================================
+DIAGNOSIS
+========================================
+Primary: J06.9 - Acute upper respiratory infection, unspecified
+Secondary: J20.9 - Acute bronchitis, unspecified
+
+========================================
+TREATMENT PLAN
+========================================
+1. Supportive care - rest, hydration
+2. Continue OTC medications for symptom relief:
+   - Tylenol or Advil for fever/pain (not both)
+   - DayQuil/NyQuil as needed
+   - Cough drops for throat
+3. Prescription: Azithromycin (Z-Pack) for secondary bacterial infection
+
+PRESCRIPTION:
+Rx: Azithromycin 250mg tablets
+Sig: Take 2 tablets by mouth on day 1, then 1 tablet daily days 2-5
+Dispense: 6 tablets
+Refills: 0
+Sent electronically to: CVS Pharmacy #4521
+
+Note: Patient has penicillin allergy, azithromycin is safe alternative.
+
+4. Return if:
+   - Fever persists >3 days after starting antibiotics
+   - Worsening symptoms
+   - Shortness of breath
+   - Chest pain
+
+5. Follow up with PCP (Dr. Chen) if not improved in 7-10 days
+
+========================================
+WORK/SCHOOL NOTE
+========================================
+Patient was seen at Sutter Urgent Care on 08/15/2024.
+
+Due to medical condition, patient should:
+[X] Rest at home for 2-3 days
+[X] May return to work on 08/18/2024
+[ ] No restrictions
+
+Provider Signature: Michael Park, MD
+Date: August 15, 2024
+
+Copy provided to patient for employer (TechVision Corporation).
+
+========================================
+BILLING INFORMATION
+========================================
+Insurance: Blue Shield of California
+Policy #: BSC-8847562-01
+Group #: TV-TECH-500
+
+Services Rendered:
+- 99203 Office visit, new patient, low complexity
+- 87880 Strep A rapid test
+- 87426 COVID-19 antigen test
+- 87804 Influenza rapid test
+
+Total Charges: $425.00
+Insurance Adjustment: -$287.50
+Insurance Paid: $107.50
+Patient Copay: $30.00
+
+Payment received: $30.00 (Chase Visa ****4421)
+Balance due: $0.00
+
+========================================
+AFTER-VISIT SUMMARY
+========================================
+Dear Donald,
+
+Thank you for visiting Sutter Urgent Care today. Here's a summary of your
+visit:
+
+You came in with cold symptoms and fever. Your tests for strep, COVID, and
+flu were all negative. You have a viral upper respiratory infection that
+has developed into bronchitis.
+
+We've prescribed an antibiotic (Azithromycin/Z-Pack) to treat possible
+secondary bacterial infection. Pick this up at CVS (1200 Stevens Creek
+Blvd, San Jose). Your copay should be about $15.
+
+Get plenty of rest and fluids. Stay home for 2-3 days. You should start
+feeling better within 48-72 hours of starting the antibiotic.
+
+Contact us or your primary care doctor (Dr. Patricia Chen at 650-555-2200)
+if you have any concerns.
+
+Feel better soon!
+
+Sutter Urgent Care Team
+(408) 555-8700

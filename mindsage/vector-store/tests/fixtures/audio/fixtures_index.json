@@ -1,0 +1,831 @@
+{
+  "fixtures": [
+    {
+      "filename": "conversation_with_name.wav",
+      "description": "Conversation mentioning a person's name",
+      "duration_seconds": 4.2,
+      "sample_rate": 16000,
+      "transcript": "Hello my name is John Smith and I am calling about my order",
+      "words": [
+        {
+          "word": "Hello",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "word": "my",
+          "start": 0.4,
+          "end": 0.8
+        },
+        {
+          "word": "name",
+          "start": 0.8,
+          "end": 1.2
+        },
+        {
+          "word": "is",
+          "start": 1.2,
+          "end": 1.6
+        },
+        {
+          "word": "John",
+          "start": 1.6,
+          "end": 2.0
+        },
+        {
+          "word": "Smith",
+          "start": 2.0,
+          "end": 2.4
+        },
+        {
+          "word": "and",
+          "start": 2.4,
+          "end": 2.8
+        },
+        {
+          "word": "I",
+          "start": 2.8,
+          "end": 3.2
+        },
+        {
+          "word": "am",
+          "start": 3.2,
+          "end": 3.6
+        },
+        {
+          "word": "calling",
+          "start": 3.6,
+          "end": 4.0
+        },
+        {
+          "word": "about",
+          "start": 4.0,
+          "end": 4.4
+        },
+        {
+          "word": "my",
+          "start": 4.4,
+          "end": 4.8
+        },
+        {
+          "word": "order",
+          "start": 4.8,
+          "end": 5.2
+        }
+      ],
+      "pii_regions": [
+        {
+          "start_time": 1.2,
+          "end_time": 2.0,
+          "pii_type": "PERSON",
+          "original_text": "John Smith",
+          "replacement_text": "[PERSON]",
+          "confidence": 0.95
+        }
+      ],
+      "has_pii": true,
+      "pii_types": [
+        "PERSON"
+      ]
+    },
+    {
+      "filename": "conversation_with_email.wav",
+      "description": "Conversation mentioning an email address",
+      "duration_seconds": 5.28,
+      "sample_rate": 16000,
+      "transcript": "You can reach me at john.smith@example.com for any questions",
+      "words": [
+        {
+          "word": "You",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "word": "can",
+          "start": 0.4,
+          "end": 0.8
+        },
+        {
+          "word": "reach",
+          "start": 0.8,
+          "end": 1.2
+        },
+        {
+          "word": "me",
+          "start": 1.2,
+          "end": 1.6
+        },
+        {
+          "word": "at",
+          "start": 1.6,
+          "end": 2.0
+        },
+        {
+          "word": "john.smith@example.com",
+          "start": 2.0,
+          "end": 2.4
+        },
+        {
+          "word": "for",
+          "start": 2.4,
+          "end": 2.8
+        },
+        {
+          "word": "any",
+          "start": 2.8,
+          "end": 3.2
+        },
+        {
+          "word": "questions",
+          "start": 3.2,
+          "end": 3.6
+        }
+      ],
+      "pii_regions": [
+        {
+          "start_time": 1.6,
+          "end_time": 3.0,
+          "pii_type": "EMAIL_ADDRESS",
+          "original_text": "john.smith@example.com",
+          "replacement_text": "[EMAIL]",
+          "confidence": 0.95
+        }
+      ],
+      "has_pii": true,
+      "pii_types": [
+        "EMAIL_ADDRESS"
+      ]
+    },
+    {
+      "filename": "conversation_with_phone.wav",
+      "description": "Conversation mentioning a phone number",
+      "duration_seconds": 6.82,
+      "sample_rate": 16000,
+      "transcript": "Please call me back at 555-123-4567 when you get a chance",
+      "words": [
+        {
+          "word": "Please",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "word": "call",
+          "start": 0.4,
+          "end": 0.8
+        },
+        {
+          "word": "me",
+          "start": 0.8,
+          "end": 1.2
+        },
+        {
+          "word": "back",
+          "start": 1.2,
+          "end": 1.6
+        },
+        {
+          "word": "at",
+          "start": 1.6,
+          "end": 2.0
+        },
+        {
+          "word": "555-123-4567",
+          "start": 2.0,
+          "end": 2.4
+        },
+        {
+          "word": "when",
+          "start": 2.4,
+          "end": 2.8
+        },
+        {
+          "word": "you",
+          "start": 2.8,
+          "end": 3.2
+        },
+        {
+          "word": "get",
+          "start": 3.2,
+          "end": 3.6
+        },
+        {
+          "word": "a",
+          "start": 3.6,
+          "end": 4.0
+        },
+        {
+          "word": "chance",
+          "start": 4.0,
+          "end": 4.4
+        }
+      ],
+      "pii_regions": [
+        {
+          "start_time": 2.0,
+          "end_time": 3.2,
+          "pii_type": "PHONE_NUMBER",
+          "original_text": "555-123-4567",
+          "replacement_text": "[PHONE]",
+          "confidence": 0.95
+        }
+      ],
+      "has_pii": true,
+      "pii_types": [
+        "PHONE_NUMBER"
+      ]
+    },
+    {
+      "filename": "conversation_with_ssn.wav",
+      "description": "Conversation mentioning a social security number",
+      "duration_seconds": 7.1,
+      "sample_rate": 16000,
+      "transcript": "My social security number is 529-38-4271 for verification",
+      "words": [
+        {
+          "word": "My",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "word": "social",
+          "start": 0.4,
+          "end": 0.8
+        },
+        {
+          "word": "security",
+          "start": 0.8,
+          "end": 1.2
+        },
+        {
+          "word": "number",
+          "start": 1.2,
+          "end": 1.6
+        },
+        {
+          "word": "is",
+          "start": 1.6,
+          "end": 2.0
+        },
+        {
+          "word": "529-38-4271",
+          "start": 2.0,
+          "end": 2.4
+        },
+        {
+          "word": "for",
+          "start": 2.4,
+          "end": 2.8
+        },
+        {
+          "word": "verification",
+          "start": 2.8,
+          "end": 3.2
+        }
+      ],
+      "pii_regions": [
+        {
+          "start_time": 2.0,
+          "end_time": 3.5,
+          "pii_type": "US_SSN",
+          "original_text": "529-38-4271",
+          "replacement_text": "[SSN]",
+          "confidence": 0.95
+        }
+      ],
+      "has_pii": true,
+      "pii_types": [
+        "US_SSN"
+      ]
+    },
+    {
+      "filename": "conversation_with_multiple_pii.wav",
+      "description": "Conversation with multiple PII types",
+      "duration_seconds": 8.62,
+      "sample_rate": 16000,
+      "transcript": "Hi I am Jane Doe my email is jane@test.com and phone is 555-999-8888",
+      "words": [
+        {
+          "word": "Hi",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "word": "I",
+          "start": 0.4,
+          "end": 0.8
+        },
+        {
+          "word": "am",
+          "start": 0.8,
+          "end": 1.2
+        },
+        {
+          "word": "Jane",
+          "start": 1.2,
+          "end": 1.6
+        },
+        {
+          "word": "Doe",
+          "start": 1.6,
+          "end": 2.0
+        },
+        {
+          "word": "my",
+          "start": 2.0,
+          "end": 2.4
+        },
+        {
+          "word": "email",
+          "start": 2.4,
+          "end": 2.8
+        },
+        {
+          "word": "is",
+          "start": 2.8,
+          "end": 3.2
+        },
+        {
+          "word": "jane@test.com",
+          "start": 3.2,
+          "end": 3.6
+        },
+        {
+          "word": "and",
+          "start": 3.6,
+          "end": 4.0
+        },
+        {
+          "word": "phone",
+          "start": 4.0,
+          "end": 4.4
+        },
+        {
+          "word": "is",
+          "start": 4.4,
+          "end": 4.8
+        },
+        {
+          "word": "555-999-8888",
+          "start": 4.8,
+          "end": 5.2
+        }
+      ],
+      "pii_regions": [
+        {
+          "start_time": 0.8,
+          "end_time": 1.6,
+          "pii_type": "PERSON",
+          "original_text": "Jane Doe",
+          "replacement_text": "[PERSON]",
+          "confidence": 0.95
+        },
+        {
+          "start_time": 2.4,
+          "end_time": 3.6,
+          "pii_type": "EMAIL_ADDRESS",
+          "original_text": "jane@test.com",
+          "replacement_text": "[EMAIL]",
+          "confidence": 0.95
+        },
+        {
+          "start_time": 4.4,
+          "end_time": 5.6,
+          "pii_type": "PHONE_NUMBER",
+          "original_text": "555-999-8888",
+          "replacement_text": "[PHONE]",
+          "confidence": 0.95
+        }
+      ],
+      "has_pii": true,
+      "pii_types": [
+        "EMAIL_ADDRESS",
+        "PHONE_NUMBER",
+        "PERSON"
+      ]
+    },
+    {
+      "filename": "conversation_no_pii.wav",
+      "description": "Conversation with no PII",
+      "duration_seconds": 4.54,
+      "sample_rate": 16000,
+      "transcript": "The weather today is sunny and warm with a high of seventy degrees",
+      "words": [
+        {
+          "word": "The",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "word": "weather",
+          "start": 0.4,
+          "end": 0.8
+        },
+        {
+          "word": "today",
+          "start": 0.8,
+          "end": 1.2
+        },
+        {
+          "word": "is",
+          "start": 1.2,
+          "end": 1.6
+        },
+        {
+          "word": "sunny",
+          "start": 1.6,
+          "end": 2.0
+        },
+        {
+          "word": "and",
+          "start": 2.0,
+          "end": 2.4
+        },
+        {
+          "word": "warm",
+          "start": 2.4,
+          "end": 2.8
+        },
+        {
+          "word": "with",
+          "start": 2.8,
+          "end": 3.2
+        },
+        {
+          "word": "a",
+          "start": 3.2,
+          "end": 3.6
+        },
+        {
+          "word": "high",
+          "start": 3.6,
+          "end": 4.0
+        },
+        {
+          "word": "of",
+          "start": 4.0,
+          "end": 4.4
+        },
+        {
+          "word": "seventy",
+          "start": 4.4,
+          "end": 4.8
+        },
+        {
+          "word": "degrees",
+          "start": 4.8,
+          "end": 5.2
+        }
+      ],
+      "pii_regions": [],
+      "has_pii": false,
+      "pii_types": []
+    },
+    {
+      "filename": "conversation_with_credit_card.wav",
+      "description": "Conversation mentioning a credit card number",
+      "duration_seconds": 8.81,
+      "sample_rate": 16000,
+      "transcript": "My card number is 4111 1111 1111 1111 expiring next year",
+      "words": [
+        {
+          "word": "My",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "word": "card",
+          "start": 0.4,
+          "end": 0.8
+        },
+        {
+          "word": "number",
+          "start": 0.8,
+          "end": 1.2
+        },
+        {
+          "word": "is",
+          "start": 1.2,
+          "end": 1.6
+        },
+        {
+          "word": "4111",
+          "start": 1.6,
+          "end": 2.0
+        },
+        {
+          "word": "1111",
+          "start": 2.0,
+          "end": 2.4
+        },
+        {
+          "word": "1111",
+          "start": 2.4,
+          "end": 2.8
+        },
+        {
+          "word": "1111",
+          "start": 2.8,
+          "end": 3.2
+        },
+        {
+          "word": "expiring",
+          "start": 3.2,
+          "end": 3.6
+        },
+        {
+          "word": "next",
+          "start": 3.6,
+          "end": 4.0
+        },
+        {
+          "word": "year",
+          "start": 4.0,
+          "end": 4.4
+        }
+      ],
+      "pii_regions": [
+        {
+          "start_time": 1.2,
+          "end_time": 3.0,
+          "pii_type": "CREDIT_CARD",
+          "original_text": "4111 1111 1111 1111",
+          "replacement_text": "[CREDIT_CARD]",
+          "confidence": 0.95
+        }
+      ],
+      "has_pii": true,
+      "pii_types": [
+        "CREDIT_CARD"
+      ]
+    },
+    {
+      "filename": "medical_intake.wav",
+      "description": "Medical intake recording",
+      "duration_seconds": 6.17,
+      "sample_rate": 16000,
+      "transcript": "Patient Robert Johnson date of birth March 15 1985 presenting with symptoms",
+      "words": [
+        {
+          "word": "Patient",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "word": "Robert",
+          "start": 0.4,
+          "end": 0.8
+        },
+        {
+          "word": "Johnson",
+          "start": 0.8,
+          "end": 1.2
+        },
+        {
+          "word": "date",
+          "start": 1.2,
+          "end": 1.6
+        },
+        {
+          "word": "of",
+          "start": 1.6,
+          "end": 2.0
+        },
+        {
+          "word": "birth",
+          "start": 2.0,
+          "end": 2.4
+        },
+        {
+          "word": "March",
+          "start": 2.4,
+          "end": 2.8
+        },
+        {
+          "word": "15",
+          "start": 2.8,
+          "end": 3.2
+        },
+        {
+          "word": "1985",
+          "start": 3.2,
+          "end": 3.6
+        },
+        {
+          "word": "presenting",
+          "start": 3.6,
+          "end": 4.0
+        },
+        {
+          "word": "with",
+          "start": 4.0,
+          "end": 4.4
+        },
+        {
+          "word": "symptoms",
+          "start": 4.4,
+          "end": 4.8
+        }
+      ],
+      "pii_regions": [
+        {
+          "start_time": 0.4,
+          "end_time": 1.2,
+          "pii_type": "PERSON",
+          "original_text": "Robert Johnson",
+          "replacement_text": "[PERSON]",
+          "confidence": 0.95
+        },
+        {
+          "start_time": 1.6,
+          "end_time": 2.8,
+          "pii_type": "DATE_TIME",
+          "original_text": "March 15 1985",
+          "replacement_text": "[DATE]",
+          "confidence": 0.95
+        }
+      ],
+      "has_pii": true,
+      "pii_types": [
+        "DATE_TIME",
+        "PERSON"
+      ]
+    },
+    {
+      "filename": "banking_call.wav",
+      "description": "Banking support call",
+      "duration_seconds": 9.14,
+      "sample_rate": 16000,
+      "transcript": "Account number 9876543210 for customer Michael Brown address 123 Main Street",
+      "words": [
+        {
+          "word": "Account",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "word": "number",
+          "start": 0.4,
+          "end": 0.8
+        },
+        {
+          "word": "9876543210",
+          "start": 0.8,
+          "end": 1.2
+        },
+        {
+          "word": "for",
+          "start": 1.2,
+          "end": 1.6
+        },
+        {
+          "word": "customer",
+          "start": 1.6,
+          "end": 2.0
+        },
+        {
+          "word": "Michael",
+          "start": 2.0,
+          "end": 2.4
+        },
+        {
+          "word": "Brown",
+          "start": 2.4,
+          "end": 2.8
+        },
+        {
+          "word": "address",
+          "start": 2.8,
+          "end": 3.2
+        },
+        {
+          "word": "123",
+          "start": 3.2,
+          "end": 3.6
+        },
+        {
+          "word": "Main",
+          "start": 3.6,
+          "end": 4.0
+        },
+        {
+          "word": "Street",
+          "start": 4.0,
+          "end": 4.4
+        }
+      ],
+      "pii_regions": [
+        {
+          "start_time": 0.8,
+          "end_time": 2.0,
+          "pii_type": "US_BANK_NUMBER",
+          "original_text": "9876543210",
+          "replacement_text": "[ACCOUNT]",
+          "confidence": 0.95
+        },
+        {
+          "start_time": 2.8,
+          "end_time": 3.6,
+          "pii_type": "PERSON",
+          "original_text": "Michael Brown",
+          "replacement_text": "[PERSON]",
+          "confidence": 0.95
+        },
+        {
+          "start_time": 4.0,
+          "end_time": 5.2,
+          "pii_type": "LOCATION",
+          "original_text": "123 Main Street",
+          "replacement_text": "[ADDRESS]",
+          "confidence": 0.95
+        }
+      ],
+      "has_pii": true,
+      "pii_types": [
+        "LOCATION",
+        "PERSON",
+        "US_BANK_NUMBER"
+      ]
+    },
+    {
+      "filename": "tech_support.wav",
+      "description": "Tech support call with IP address",
+      "duration_seconds": 7.99,
+      "sample_rate": 16000,
+      "transcript": "The server IP address is 192.168.1.100 showing connection errors",
+      "words": [
+        {
+          "word": "The",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "word": "server",
+          "start": 0.4,
+          "end": 0.8
+        },
+        {
+          "word": "IP",
+          "start": 0.8,
+          "end": 1.2
+        },
+        {
+          "word": "address",
+          "start": 1.2,
+          "end": 1.6
+        },
+        {
+          "word": "is",
+          "start": 1.6,
+          "end": 2.0
+        },
+        {
+          "word": "192.168.1.100",
+          "start": 2.0,
+          "end": 2.4
+        },
+        {
+          "word": "showing",
+          "start": 2.4,
+          "end": 2.8
+        },
+        {
+          "word": "connection",
+          "start": 2.8,
+          "end": 3.2
+        },
+        {
+          "word": "errors",
+          "start": 3.2,
+          "end": 3.6
+        }
+      ],
+      "pii_regions": [
+        {
+          "start_time": 1.6,
+          "end_time": 2.8,
+          "pii_type": "IP_ADDRESS",
+          "original_text": "192.168.1.100",
+          "replacement_text": "[IP_ADDRESS]",
+          "confidence": 0.95
+        }
+      ],
+      "has_pii": true,
+      "pii_types": [
+        "IP_ADDRESS"
+      ]
+    }
+  ],
+  "total": 10,
+  "pii_types": [
+    "LOCATION",
+    "PERSON",
+    "US_BANK_NUMBER",
+    "IP_ADDRESS",
+    "CREDIT_CARD",
+    "US_SSN",
+    "DATE_TIME",
+    "EMAIL_ADDRESS",
+    "PHONE_NUMBER"
+  ],
+  "generated_with": "tts"
+}

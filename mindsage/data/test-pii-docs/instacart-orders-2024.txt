@@ -1,0 +1,112 @@
+INSTACART ORDER HISTORY
+Account: don.jones.1987@gmail.com
+Phone: (408) 555-7834
+
+========================================
+ORDER #IC-847291847521
+========================================
+Date: January 20, 2025
+Store: Safeway - Stevens Creek
+Shopper: Maria C.
+
+Delivery Address:
+Donald Jones
+1847 Maple Grove Drive, Apt 4B
+San Jose, CA 95126
+
+Items:
+- Organic Bananas (1 bunch) - $1.99
+- Kirkland Signature Olive Oil - $14.99
+- Boneless Skinless Chicken Breast (2 lbs) - $11.98
+- Fresh Salmon Fillet (1 lb) - $12.99
+- Organic Baby Spinach (5 oz) - $4.99
+- Greek Yogurt Vanilla (32 oz) - $5.49
+- Whole Wheat Bread - $3.99
+- Eggs Large (18 ct) - $6.49
+- Almond Milk Unsweetened - $3.99
+- Fresh Broccoli (2 lbs) - $4.98
+- Brown Rice (2 lb bag) - $4.49
+- Avocados (4 ct) - $5.99
+
+Subtotal: $82.36
+Service Fee: $5.99
+Delivery Fee: $0.00 (Instacart+)
+Tip: $12.00
+Tax: $6.59
+Total: $106.94
+
+Payment: Chase Visa ****4421
+Instacart+ Member since: March 2022
+
+========================================
+ORDER #IC-918274651832
+========================================
+Date: January 13, 2025
+Store: Costco - San Jose
+Shopper: James T.
+
+Items:
+- Kirkland Signature Salmon (3 lb) - $29.99
+- Organic Chicken Thighs (6 lb) - $24.99
+- Tillamook Cheese Block (2 lb) - $11.99
+- Kirkland Protein Bars (20 ct) - $21.99
+- Organic Mixed Greens (1 lb) - $5.99
+- Kirkland Almond Butter - $9.99
+- Organic Blueberries (18 oz) - $8.99
+- Paper Towels (12 rolls) - $21.99
+- Kirkland Vitamin D3 (600 ct) - $12.99
+- Kirkland Fish Oil (400 ct) - $16.99
+
+Subtotal: $165.90
+Service Fee: $9.99
+Delivery Fee: $0.00 (Instacart+)
+Heavy Order Fee: $5.00
+Tip: $20.00
+Tax: $13.27
+Total: $214.16
+
+Payment: Chase Visa ****4421
+
+========================================
+ORDER #IC-472918475123
+========================================
+Date: January 6, 2025
+Store: Whole Foods - San Jose
+Shopper: Ashley M.
+
+Items:
+- 365 Organic Ground Turkey - $8.99
+- Vital Farms Pasture-Raised Eggs - $8.99
+- Organic Kale Bunch - $2.99
+- Sweet Potatoes (3 lbs) - $5.97
+- 365 Organic Chicken Broth - $3.99
+- Fresh Herb Mix - $3.99
+- Organic Quinoa (16 oz) - $6.99
+- Amy's Organic Soup (3 cans) - $11.97
+- Siggis Vanilla Yogurt (4 pack) - $7.99
+- Justin's Almond Butter - $9.99
+
+Subtotal: $71.86
+Service Fee: $5.99
+Delivery Fee: $0.00 (Instacart+)
+Tip: $10.00
+Tax: $5.75
+Total: $93.60
+
+Payment: Chase Visa ****4421
+
+========================================
+2024 ANNUAL SUMMARY
+========================================
+Total Orders: 89
+Total Spent: $8,234.56
+Average Order: $92.52
+Most Ordered Store: Safeway (45 orders)
+Favorite Items:
+1. Organic Bananas (72 times)
+2. Boneless Chicken Breast (68 times)
+3. Greek Yogurt (61 times)
+4. Organic Baby Spinach (58 times)
+5. Eggs (54 times)
+
+Instacart+ Savings: $892.11

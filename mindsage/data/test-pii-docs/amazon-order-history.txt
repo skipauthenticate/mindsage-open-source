@@ -1,0 +1,183 @@
+AMAZON ORDER HISTORY EXPORT
+Account: don.jones.1987@gmail.com
+Export Date: January 25, 2025
+
+========================================
+ORDER #112-9945872-3384721
+========================================
+Order Date: January 25, 2025
+Status: Shipped
+
+Ship To:
+Donald Jones
+1847 Maple Grove Drive, Apt 4B
+San Jose, CA 95126
+United States
+Phone: (408) 555-7834
+
+Items:
+1. Nike Air Zoom Pegasus 40 Running Shoes - Men's Size 10
+   Sold by: Nike
+   Price: $119.99
+
+2. Prep Naturals Glass Meal Prep Containers (5 pack)
+   Sold by: Prep Naturals
+   Price: $24.99
+
+3. Atomic Habits by James Clear (Paperback)
+   Sold by: Amazon.com
+   Price: $14.99
+
+Subtotal: $159.97
+Shipping: FREE (Prime)
+Tax: $14.40
+Order Total: $174.37
+
+Payment: Visa ending in 4421
+Shipping: Prime 2-Day
+Tracking: 1Z999AA10123456784
+
+========================================
+ORDER #112-4478834-9921847
+========================================
+Order Date: December 18, 2024
+Status: Delivered (Dec 21, 2024)
+
+Ship To:
+David Jones
+2234 Lakeshore Ave
+Oakland, CA 94606
+United States
+
+Gift Order: Yes
+Gift Message: "Welcome to the world, Sophia! Love, Uncle Don"
+
+Items:
+1. Baby Einstein Take Along Tunes Musical Toy
+   Price: $12.99
+
+2. The Wonderful Things You Will Be (Hardcover)
+   Price: $14.99
+
+3. Cloud Island Baby Blanket - Gray Elephant
+   Price: $24.99
+
+4. Pampers Swaddlers Newborn Diapers (84 count)
+   Price: $29.99
+
+5. Baby Gift Wrap & Card
+   Price: $7.99
+
+Subtotal: $90.95
+Shipping: FREE (Prime)
+Tax: $8.19
+Order Total: $99.14
+
+Payment: Visa ending in 4421
+
+========================================
+ORDER #112-7834521-8847291
+========================================
+Order Date: December 5, 2024
+Status: Delivered (Dec 8, 2024)
+
+Ship To:
+Donald Jones
+1847 Maple Grove Drive, Apt 4B
+San Jose, CA 95126
+
+Items:
+1. Instant Pot Duo 7-in-1 Electric Pressure Cooker, 6 Quart
+   Price: $89.99
+
+2. Instant Pot Cookbook for Beginners
+   Price: $16.99
+
+Subtotal: $106.98
+Shipping: FREE (Prime)
+Tax: $9.63
+Order Total: $116.61
+
+Payment: Visa ending in 4421
+
+========================================
+ORDER #112-2918471-4829387
+========================================
+Order Date: November 20, 2024
+Status: Delivered (Nov 23, 2024)
+
+Ship To:
+Linda Jones
+847 Oak Valley Road
+Walnut Creek, CA 94598
+
+Gift Order: Yes
+Gift Message: "Happy early birthday Mom! Hope you enjoy. Love, Donnie"
+
+Items:
+1. Apple iPad (10th Generation) 64GB - Silver
+   Price: $349.00
+
+2. Apple iPad Smart Folio Case - Black
+   Price: $79.00
+
+3. Apple Pencil (USB-C)
+   Price: $79.00
+
+Subtotal: $507.00
+Shipping: FREE (Prime)
+Tax: $45.63
+Order Total: $552.63
+
+Payment: Visa ending in 4421
+Note: This is what I helped Mom set up on Jan 18!
+
+========================================
+ORDER #112-8472918-4752918
+========================================
+Order Date: October 15, 2024
+Status: Delivered (Oct 18, 2024)
+
+Ship To:
+Donald Jones
+1847 Maple Grove Drive, Apt 4B
+San Jose, CA 95126
+
+Items:
+1. Fitbit Charge 6 Fitness Tracker - Black
+   Price: $159.95
+
+2. Fitbit Charge 6 Band (3-pack) - Sport
+   Price: $29.95
+
+Subtotal: $189.90
+Shipping: FREE (Prime)
+Tax: $17.09
+Order Total: $206.99
+
+Payment: Visa ending in 4421
+
+========================================
+ACCOUNT SUMMARY (2024)
+========================================
+
+Total Orders: 47
+Total Spent: $4,892.17
+
+Prime Membership: Active since 2018
+Prime Savings (2024): $387.42 in shipping
+
+Default Payment: Visa ending in 4421
+Default Address:
+Donald Jones
+1847 Maple Grove Drive, Apt 4B
+San Jose, CA 95126
+(408) 555-7834
+
+Other Saved Addresses:
+- Linda Jones, 847 Oak Valley Road, Walnut Creek CA
+- David Jones, 2234 Lakeshore Ave, Oakland CA
+- TechVision Corp (Work), 2500 Innovation Way, Palo Alto CA
+
+Wish List Items: 23
+Subscribe & Save Items: 3 (vitamins, protein bars, coffee)

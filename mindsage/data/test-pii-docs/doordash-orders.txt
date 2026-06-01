@@ -1,0 +1,158 @@
+DOORDASH ORDER HISTORY
+Account: don.jones.1987@gmail.com
+Phone: (408) 555-7834
+DashPass Member Since: June 2021
+
+========================================
+ORDER #8472918475
+========================================
+Date: January 24, 2025, 7:45 PM
+Restaurant: Panda Express - Stevens Creek
+Dasher: Kevin M.
+
+Delivery Address:
+Donald Jones
+1847 Maple Grove Drive, Apt 4B
+San Jose, CA 95126
+Instructions: Apt 4B, 2nd floor, leave at door
+
+Items:
+- Orange Chicken Bowl - $10.50
+- Beijing Beef (add-on) - $5.50
+- Chow Mein Side - $4.50
+- Cream Cheese Rangoon (6 pc) - $3.00
+- Large Drink (Dr Pepper) - $2.99
+
+Subtotal: $26.49
+Taxes & Fees: $3.58
+Delivery Fee: $0.00 (DashPass)
+Service Fee: $2.65
+Dasher Tip: $6.00
+Total: $38.72
+
+Payment: Chase Visa ****4421
+Rating Given: 5 stars
+
+========================================
+ORDER #9184729184
+========================================
+Date: January 20, 2025, 12:30 PM
+Restaurant: Chipotle - Santana Row
+Dasher: Maria S.
+
+Items:
+- Chicken Burrito Bowl - $11.25
+  (Brown rice, black beans, fajita veggies, mild salsa, cheese, guac)
+- Chips & Guacamole - $5.95
+- Mexican Coca-Cola - $3.50
+
+Subtotal: $20.70
+Taxes & Fees: $2.80
+Delivery Fee: $0.00 (DashPass)
+Service Fee: $2.07
+Dasher Tip: $5.00
+Total: $30.57
+
+Payment: Chase Visa ****4421
+Notes: Lunch break, working from home
+
+========================================
+ORDER #2847291847
+========================================
+Date: January 15, 2025, 8:15 PM
+Restaurant: Thai Basil - San Jose
+Dasher: Robert T.
+
+Items:
+- Pad Thai with Chicken - $15.99
+- Tom Yum Soup (Small) - $6.99
+- Thai Iced Tea - $4.50
+- Vegetable Spring Rolls (4 pc) - $7.99
+
+Subtotal: $35.47
+Taxes & Fees: $4.79
+Delivery Fee: $0.00 (DashPass)
+Service Fee: $3.55
+Dasher Tip: $7.00
+Total: $50.81
+
+Payment: Chase Visa ****4421
+Rating Given: 5 stars - "Food was hot and delicious!"
+
+========================================
+ORDER #4729184752
+========================================
+Date: January 10, 2025, 6:45 PM
+Restaurant: In-N-Out Burger - Meridian
+Dasher: James L.
+
+Items:
+- Double-Double (Animal Style) - $6.10
+- Cheeseburger (Protein Style) - $4.45
+- French Fries (Animal Style) - $4.55
+- Neapolitan Shake - $3.70
+
+Subtotal: $18.80
+Taxes & Fees: $2.54
+Delivery Fee: $0.00 (DashPass)
+Service Fee: $1.88
+Dasher Tip: $5.00
+Total: $28.22
+
+Payment: Chase Visa ****4421
+Notes: Cheat day!
+
+========================================
+ORDER #8291847521
+========================================
+Date: January 5, 2025, 7:00 PM
+Restaurant: Sushi Tomi - San Jose
+Dasher: Ashley K.
+
+Items:
+- Sashimi Deluxe (15 pc) - $28.99
+- Spicy Tuna Roll - $8.99
+- Edamame - $5.99
+- Miso Soup - $3.50
+
+Subtotal: $47.47
+Taxes & Fees: $6.41
+Delivery Fee: $0.00 (DashPass)
+Service Fee: $4.75
+Dasher Tip: $9.00
+Total: $67.63
+
+Payment: Chase Visa ****4421
+
+========================================
+DOORDASH 2024 WRAPPED
+========================================
+
+Total Orders: 156
+Total Spent: $4,892.34
+Average Order: $31.36
+
+Most Ordered Restaurants:
+1. Chipotle (34 orders) - $782.45
+2. Panda Express (28 orders) - $534.21
+3. Thai Basil (19 orders) - $498.33
+4. In-N-Out (15 orders) - $312.45
+5. Sushi Tomi (12 orders) - $567.89
+
+Favorite Items:
+1. Chicken Burrito Bowl - Chipotle (34x)
+2. Orange Chicken Bowl - Panda Express (28x)
+3. Pad Thai - Thai Basil (19x)
+4. Double-Double - In-N-Out (15x)
+
+Delivery Stats:
+- DashPass Savings: $623.40
+- Average Tip: $6.25
+- 5-Star Ratings Given: 142
+- Most Active Day: Friday
+- Most Active Time: 7-8 PM
+
+DashPass Subscription:
+- Monthly Fee: $9.99
+- Payment: Chase Visa ****4421
+- Auto-Renews: 15th of each month

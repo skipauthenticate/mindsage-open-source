@@ -1,0 +1,151 @@
+FIDELITY INVESTMENTS
+Account Statement
+
+Statement Period: January 1 - January 31, 2025
+
+========================================
+ACCOUNT HOLDER INFORMATION
+========================================
+Name: Donald Raymond Jones
+SSN: XXX-XX-4829
+Date of Birth: March 15, 1987
+Address: 1847 Maple Grove Drive, Apt 4B
+         San Jose, CA 95126
+Phone: (408) 555-7834
+Email: don.jones.1987@gmail.com
+
+========================================
+ACCOUNT SUMMARY
+========================================
+
+Individual Brokerage Account
+Account Number: Z48-291847
+
+Beginning Value (Jan 1):      $18,234.56
+Net Contributions:            $500.00
+Investment Gains/Losses:      $892.17
+Ending Value (Jan 31):        $19,626.73
+
+401(k) Rollover IRA
+Account Number: X29-184752
+(Rolled over from previous employer - DataSync Inc.)
+
+Beginning Value (Jan 1):      $47,891.23
+Investment Gains/Losses:      $2,156.44
+Ending Value (Jan 31):        $50,047.67
+
+TechVision 401(k)
+Plan ID: TV-401K-2019
+Employee ID: EMP-2019-4421
+
+Beginning Value (Jan 1):      $62,445.89
+Employee Contribution:        $375.00 (from Jan 15 paycheck)
+Employer Match:               $187.50
+Investment Gains/Losses:      $1,834.22
+Ending Value (Jan 31):        $64,842.61
+
+TOTAL RETIREMENT ASSETS:      $114,890.28
+
+========================================
+BROKERAGE HOLDINGS (Z48-291847)
+========================================
+
+Symbol    Description                  Shares    Price      Value
+------    -----------                  ------    -----      -----
+VTI       Vanguard Total Stock ETF     45.234    $268.92    $12,166.82
+VXUS      Vanguard Intl Stock ETF      62.891    $59.47     $3,741.00
+BND       Vanguard Total Bond ETF      48.125    $72.15     $3,472.22
+AAPL      Apple Inc.                   1.250     $197.35    $246.69
+                                                            ----------
+                                       Total:               $19,626.73
+
+========================================
+401(k) HOLDINGS (TV-401K-2019)
+========================================
+
+Fund Name                              Allocation    Value
+---------                              ----------    -----
+Fidelity 500 Index (FXAIX)             60%          $38,905.57
+Fidelity Total Bond (FTBFX)            25%          $16,210.65
+Fidelity International (FSPSX)         15%          $9,726.39
+                                                    ----------
+                                       Total:       $64,842.61
+
+Contribution Rate: 6% of salary (maximizing employer match)
+Employer Match: 50% up to 6% = 3%
+Vesting: 100% vested (after 4 years)
+
+========================================
+JANUARY TRANSACTIONS
+========================================
+
+Brokerage (Z48-291847):
+01/15  Transfer from Bank (****9912)           +$500.00
+01/15  Buy VTI @ $265.47                       -$500.00  (1.883 shares)
+01/31  Dividend - VTI                          +$23.45
+01/31  Dividend - VXUS                         +$18.92
+
+401(k) (TV-401K-2019):
+01/15  Employee Contribution                   +$375.00
+01/15  Employer Match                          +$187.50
+01/15  Auto-invest per allocation             -$562.50
+
+========================================
+PERFORMANCE SUMMARY
+========================================
+
+Year-to-Date Return (Jan 2025):
+- Brokerage: +4.9%
+- 401(k): +3.8%
+- Total Portfolio: +4.2%
+
+Benchmark Comparison:
+- S&P 500: +3.2%
+- Your Portfolio: +4.2%
+- Outperformance: +1.0%
+
+========================================
+BENEFICIARY INFORMATION
+========================================
+
+Primary Beneficiary (100%):
+Linda M. Jones (Mother)
+DOB: June 12, 1956
+SSN: XXX-XX-3341
+Address: 847 Oak Valley Road, Walnut Creek, CA 94598
+Phone: (925) 555-3341
+
+Contingent Beneficiary:
+David R. Jones (Brother)
+DOB: August 22, 1990
+Relationship: Sibling
+
+========================================
+TAX DOCUMENTS
+========================================
+
+The following tax documents will be available by February 15, 2025:
+- Form 1099-DIV (Dividends)
+- Form 1099-B (Sales, if any)
+
+2024 Tax Documents: Available at fidelity.com/taxforms
+- 1099-DIV: $342.18 in qualified dividends
+- 1099-B: No sales in 2024
+
+========================================
+CONTACT INFORMATION
+========================================
+
+Customer Service: 1-800-343-3548
+Website: fidelity.com
+Mobile App: Fidelity Investments
+
+Your Financial Advisor:
+Michael Chen, CFP
+Phone: (650) 555-8800
+Email: michael.chen@fidelity.com
+
+For account inquiries, please reference:
+Account Holder: Donald R. Jones
+Last 4 SSN: 4829
+Security Word: BERKELEY (your alma mater)

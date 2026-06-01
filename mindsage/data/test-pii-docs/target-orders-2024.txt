@@ -1,0 +1,137 @@
+TARGET ORDER HISTORY
+Target Circle Member: Donald Jones
+Member ID: TC-487291847
+Email: don.jones.1987@gmail.com
+Phone: (408) 555-7834
+
+========================================
+ORDER #T-9847521847
+========================================
+Date: January 18, 2025
+Store: Target - Westgate, San Jose
+Order Type: Drive Up
+
+Items:
+- Goodfellow & Co Men's Henley (Navy, L) - $20.00
+- Goodfellow & Co Joggers (Gray, M) - $25.00
+- All-in-Motion Running Socks (6 pack) - $12.99
+- Degree Men's Deodorant (2 pack) - $9.99
+- Cetaphil Daily Cleanser - $11.99
+- CeraVe Moisturizing Cream - $16.99
+- Advil (100 ct) - $10.99
+- Kleenex (4 boxes) - $7.99
+- Method Hand Soap (3 pack) - $11.99
+
+Subtotal: $127.93
+Target Circle Savings: -$8.50
+Tax: $10.75
+Total: $130.18
+
+Payment: Target RedCard ****8847
+RedCard Savings: $6.51 (5%)
+
+Pickup Person: Donald Jones
+Vehicle: Silver Honda Civic (8ABC123)
+
+========================================
+ORDER #T-8472918471
+========================================
+Date: January 5, 2025
+Store: Target.com
+Shipping: Same Day Delivery (Shipt)
+
+Delivery Address:
+Donald Jones
+1847 Maple Grove Drive, Apt 4B
+San Jose, CA 95126
+
+Items:
+- Threshold Bedding Set Queen (Gray) - $49.99
+- Room Essentials Pillow (2 pack) - $14.99
+- Casaluna Organic Sheets (Queen) - $59.99
+- Threshold Bath Towels (4 pack) - $29.99
+- Brightroom Storage Bins (3 pack) - $19.99
+- Command Hooks Variety Pack - $12.99
+
+Subtotal: $187.94
+Target Circle Savings: -$15.00
+Shipt Delivery: $9.99
+Tax: $15.56
+Total: $198.49
+
+Payment: Chase Visa ****4421
+
+========================================
+ORDER #T-2918475218
+========================================
+Date: December 26, 2024
+Store: Target - Westgate, San Jose
+Order Type: In-Store Purchase
+
+Items:
+- Nintendo Switch Game (Zelda) - $59.99
+- Nintendo Pro Controller - $69.99
+- Target Gift Card ($50) - $50.00
+- Beats Studio Buds - $149.99
+- Anker Power Bank - $29.99
+- USB-C Cables (3 pack) - $19.99
+
+Subtotal: $379.95
+Target Circle Savings: -$25.00
+Tax: $31.95
+Total: $386.90
+
+Payment: Target RedCard ****8847
+Notes: Post-Christmas electronics splurge with gift money
+
+========================================
+ORDER #T-7291847521
+========================================
+Date: December 15, 2024
+Store: Target.com
+Gift Order - Ship to Recipient
+
+Ship To:
+Linda Jones
+847 Oak Valley Road
+Walnut Creek, CA 94598
+
+Gift Message: "Merry Christmas Mom! Love, Donnie"
+
+Items:
+- Keurig K-Mini Coffee Maker - $79.99
+- Starbucks K-Cup Variety Pack - $19.99
+- Threshold Throw Blanket (Cream) - $25.00
+- Yankee Candle Gift Set - $24.99
+- Gift Wrapping - $5.99
+
+Subtotal: $155.96
+Target Circle Savings: -$12.00
+Shipping: FREE
+Tax: $12.96
+Total: $156.92
+
+Payment: Target RedCard ****8847
+
+========================================
+2024 TARGET CIRCLE SUMMARY
+========================================
+
+Total Spending: $2,847.92
+Target Circle Savings: $234.56
+RedCard Savings: $142.40
+Total Saved: $376.96
+
+Top Categories:
+1. Home & Decor: $892.34
+2. Electronics: $634.21
+3. Clothing: $412.87
+4. Personal Care: $298.45
+5. Grocery: $276.33
+
+Target Circle Rewards Earned: 1% = $28.48
+Birthday Reward Used: $10.00 (March)
+
+RedCard Details:
+Type: Target Debit Card
+Linked Bank: First National Bank ****9912

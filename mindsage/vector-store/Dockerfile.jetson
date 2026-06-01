@@ -1,0 +1,67 @@
+# MindSage Vector Store Dockerfile for Jetson Orin Nano (ARM64)
+# GPU-accelerated with CUDA support via L4T base image
+#
+# Build:
+#   docker build -f Dockerfile.jetson -t mindsage-vector-store .
+
+FROM nvcr.io/nvidia/l4t-pytorch:r36.2.0-pth2.1-py3
+
+# Prevent interactive prompts during build
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    cmake \
+    curl \
+    git \
+    # Image PII: Tesseract OCR (fallback for CPU-only)
+    tesseract-ocr \
+    tesseract-ocr-eng \
+    libtesseract-dev \
+    # Audio PII: FFmpeg for pydub audio manipulation
+    ffmpeg \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements first for layer caching
+COPY requirements.txt ./
+
+# Install Python dependencies
+# Note: torch is pre-installed in l4t-pytorch image with CUDA support
+# Filter out torch from requirements to avoid overwriting
+RUN pip3 install --no-cache-dir --upgrade pip && \
+    grep -v "^torch" requirements.txt > requirements-no-torch.txt && \
+    pip3 install --no-cache-dir -r requirements-no-torch.txt && \
+    rm requirements-no-torch.txt
+
+# Download spaCy model for PII protection
+RUN python3 -m spacy download en_core_web_sm
+
+# Copy application code
+COPY . .
+
+# Download models during build (optional, can be mounted instead)
+ARG DOWNLOAD_MODELS=false
+RUN if [ "$DOWNLOAD_MODELS" = "true" ]; then \
+    python3 download_models.py; \
+    fi
+
+# Create data directories
+RUN mkdir -p /app/data/vectordb /app/models
+
+# Default port
+ENV PORT=8085
+
+# Expose port
+EXPOSE 8085
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 \
+    CMD curl -f http://localhost:8085/health || exit 1
+
+# Start the server
+CMD ["python3", "-m", "mcp_vector_store.mcp_server_http", "--port", "8085", "--db-path", "/app/data/vectordb"]

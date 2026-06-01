@@ -1,0 +1,106 @@
+{
+  "filename": "conversation_with_multiple_pii.wav",
+  "description": "Conversation with multiple PII types",
+  "duration_seconds": 8.62,
+  "sample_rate": 16000,
+  "transcript": "Hi I am Jane Doe my email is jane@test.com and phone is 555-999-8888",
+  "words": [
+    {
+      "word": "Hi",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "I",
+      "start": 0.4,
+      "end": 0.8
+    },
+    {
+      "word": "am",
+      "start": 0.8,
+      "end": 1.2
+    },
+    {
+      "word": "Jane",
+      "start": 1.2,
+      "end": 1.6
+    },
+    {
+      "word": "Doe",
+      "start": 1.6,
+      "end": 2.0
+    },
+    {
+      "word": "my",
+      "start": 2.0,
+      "end": 2.4
+    },
+    {
+      "word": "email",
+      "start": 2.4,
+      "end": 2.8
+    },
+    {
+      "word": "is",
+      "start": 2.8,
+      "end": 3.2
+    },
+    {
+      "word": "jane@test.com",
+      "start": 3.2,
+      "end": 3.6
+    },
+    {
+      "word": "and",
+      "start": 3.6,
+      "end": 4.0
+    },
+    {
+      "word": "phone",
+      "start": 4.0,
+      "end": 4.4
+    },
+    {
+      "word": "is",
+      "start": 4.4,
+      "end": 4.8
+    },
+    {
+      "word": "555-999-8888",
+      "start": 4.8,
+      "end": 5.2
+    }
+  ],
+  "pii_regions": [
+    {
+      "start_time": 0.8,
+      "end_time": 1.6,
+      "pii_type": "PERSON",
+      "original_text": "Jane Doe",
+      "replacement_text": "[PERSON]",
+      "confidence": 0.95
+    },
+    {
+      "start_time": 2.4,
+      "end_time": 3.6,
+      "pii_type": "EMAIL_ADDRESS",
+      "original_text": "jane@test.com",
+      "replacement_text": "[EMAIL]",
+      "confidence": 0.95
+    },
+    {
+      "start_time": 4.4,
+      "end_time": 5.6,
+      "pii_type": "PHONE_NUMBER",
+      "original_text": "555-999-8888",
+      "replacement_text": "[PHONE]",
+      "confidence": 0.95
+    }
+  ],
+  "has_pii": true,
+  "pii_types": [
+    "PHONE_NUMBER",
+    "PERSON",
+    "EMAIL_ADDRESS"
+  ]
+}

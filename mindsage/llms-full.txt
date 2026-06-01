@@ -1,0 +1,42 @@
+# MindSage Agent Context
+
+MindSage is a local-first personal knowledge and AI memory system. The backend repo contains an Express API, connector workers, LocalSend support, a browser connector for AI chat capture, and a Python FastAPI/txtai vector store with MCP support.
+
+Use `README.md` for setup, `INSTALL_FOR_AGENTS.md` for agent installation, `SECURITY.md` for trust boundaries, and `docs/COMPETITIVE-ANALYSIS.md` for positioning against GBrain and OpenBrain.
+
+Critical rules:
+
+- Runtime `data/` contains user data and credentials. Do not commit it except synthetic fixtures under `data/test-pii-docs/`.
+- LLM-facing MCP responses must be redacted or anonymized by default.
+- Use the MCP `think` tool as the default agent entrypoint for cited reasoning, answer/source/concept/contradiction graph links, safe entity graph links, source coverage, freshness warnings, contradictions, gaps, and citation-maintenance actions.
+- Use `npm run agent:setup -- <client>` from the single-repo root for Claude Code, Claude Desktop, Codex, Cursor, Gemini CLI, VS Code, Windsurf, Zed, Continue, Trae, and generic MCP JSON setup.
+- Use `npm run agent:schema -- --json` from the single-repo root when an AI coding tool needs a machine-readable contract for MCP tools, REST endpoints, CLI commands, typed-memory fields, and safety defaults.
+- Use `npm run agent:pack -- --classify <path>` from the single-repo root when an agent needs a safe intake category and typed-memory default without echoing filenames, absolute paths, or document text.
+- Use `npm run agent:pack -- --detect <path> --json` from the single-repo root when an agent needs corpus-level schema candidates and high-risk review counts without exposing names or content.
+- Use `npm run agent:health -- --json` from the single-repo root when an agent needs a read-only 0-100 health gate for freshness, dates, duplicates, entity consolidation, and replacement candidates.
+- Use `npm run agent:think -- "What changed?"` from the single-repo root when an agent needs a quick shell-native read path into cited `think` output.
+- Use `npm run agent:import -- ./notes` from the single-repo root when an agent needs to bulk-ingest local text or markdown into `/api/documents/batch`; add `--dry-run` before writes that need review.
+- Use `npm run agent:search -- "remote MCP auth"` from the single-repo root when an agent needs ranked passage evidence from `/api/search/enhanced`.
+- Use `write_memory`, `search_memory`, `memory_workspace_info`, `memory_actor_activity`, `memory_timeline`, and `memory_graph` when an agent needs typed, versioned memory with workspace scope, lifecycle state, retention, workspace summaries, actor activity, audit history, and relation traversal.
+- Use `npm run agent:capture -- "Remember this"` from the single-repo root when an agent needs a quick CLI write path into documents or typed memory; add `--dry-run` before writes that need review, and prefer stdin with `npm --silent run agent:capture -- ...` for sensitive note text.
+- Use `npm run maintenance:plan -- --json` from the single-repo root when an agent needs recurring read-only freshness scans plus review-required refresh/date/dedupe/entity/connector-sync jobs without exposing raw document text or PII session IDs.
+- Use `npm run maintenance:apply -- --json` from the single-repo root when an agent needs a dry-run apply batch with pending write requests and no raw document text, filenames, paths, PII session IDs, or person entities.
+- Use `npm run maintenance:apply -- --ledger-path /tmp/mindsage-maintenance-ledger.jsonl` from the single-repo root when an agent needs an append-only redacted audit event for a maintenance apply batch.
+- Remote MCP must use public mode plus a 32+ character bearer token through `VECTOR_STORE_API_KEY` or `MCP_VECTOR_STORE_API_KEY`; stdio bridges can forward the same token.
+- Fixture-corpus evals must stay redacted and run with `npm run eval:corpus` before claiming retrieval-quality progress.
+- Run replayable agent-memory evals with `npm run eval:agents` from the single-repo root.
+- Real API keys, cookies, browser profiles, uploads, connector exports, captures, and vector databases must never be committed.
+- Before claiming success, run the relevant test/build/check command and inspect the output.
+
+Common commands:
+
+```bash
+npm install
+npm run vector-store:setup
+npm run dev:all
+npm run check:oss
+npm test
+npm run build
+```
+
+Frontend companion repo: `../mindsage-frontend`.

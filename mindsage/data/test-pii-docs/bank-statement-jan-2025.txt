@@ -1,0 +1,44 @@
+FIRST NATIONAL BANK OF CALIFORNIA
+Account Statement - January 2025
+
+Account Holder: Donald Raymond Jones
+Account Number: 4521-8834-9912
+Routing Number: 121000358
+Statement Period: January 1, 2025 - January 31, 2025
+
+Customer Information:
+Name: Don Jones
+Address: 1847 Maple Grove Drive, Apt 4B
+         San Jose, CA 95126
+Phone: (408) 555-7834
+Email: don.jones.1987@gmail.com
+SSN (last 4): XXX-XX-4829
+
+ACCOUNT SUMMARY
+================
+Beginning Balance:                    $12,847.33
+Total Deposits:                       $6,250.00
+Total Withdrawals:                    $4,892.17
+Ending Balance:                       $14,205.16
+
+TRANSACTION HISTORY
+===================
+01/03/2025  Direct Deposit - TechVision Corp         +$3,125.00
+01/05/2025  Debit Card - Whole Foods #1284           -$127.84
+01/07/2025  ACH Payment - PG&E Utilities             -$156.32
+01/08/2025  Venmo Transfer to Sarah Martinez         -$85.00
+01/10/2025  ATM Withdrawal - 2nd & San Carlos        -$200.00
+01/12/2025  Online Transfer to Chase Savings         -$500.00
+01/15/2025  Debit Card - Shell Gas Station           -$62.47
+01/17/2025  Direct Deposit - TechVision Corp         +$3,125.00
+01/18/2025  Zelle Payment from Mom (Linda Jones)     +$200.00
+01/20/2025  Auto Pay - State Farm Insurance          -$189.00
+01/22/2025  Debit Card - Amazon.com                  -$234.89
+01/24/2025  ACH Payment - AT&T Wireless              -$95.42
+01/25/2025  Debit Card - Costco Wholesale            -$412.33
+01/28/2025  Check #1042 - Dr. Patricia Chen          -$150.00
+01/30/2025  Debit Card - Netflix                     -$15.99
+01/31/2025  Wire Transfer from David Jones (brother) +$800.00
+
+For questions, call 1-800-555-BANK or visit www.fnbcalifornia.com
+Member FDIC | Equal Housing Lender

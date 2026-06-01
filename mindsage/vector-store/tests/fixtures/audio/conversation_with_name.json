@@ -1,0 +1,88 @@
+{
+  "filename": "conversation_with_name.wav",
+  "description": "Conversation mentioning a person's name",
+  "duration_seconds": 4.2,
+  "sample_rate": 16000,
+  "transcript": "Hello my name is John Smith and I am calling about my order",
+  "words": [
+    {
+      "word": "Hello",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "my",
+      "start": 0.4,
+      "end": 0.8
+    },
+    {
+      "word": "name",
+      "start": 0.8,
+      "end": 1.2
+    },
+    {
+      "word": "is",
+      "start": 1.2,
+      "end": 1.6
+    },
+    {
+      "word": "John",
+      "start": 1.6,
+      "end": 2.0
+    },
+    {
+      "word": "Smith",
+      "start": 2.0,
+      "end": 2.4
+    },
+    {
+      "word": "and",
+      "start": 2.4,
+      "end": 2.8
+    },
+    {
+      "word": "I",
+      "start": 2.8,
+      "end": 3.2
+    },
+    {
+      "word": "am",
+      "start": 3.2,
+      "end": 3.6
+    },
+    {
+      "word": "calling",
+      "start": 3.6,
+      "end": 4.0
+    },
+    {
+      "word": "about",
+      "start": 4.0,
+      "end": 4.4
+    },
+    {
+      "word": "my",
+      "start": 4.4,
+      "end": 4.8
+    },
+    {
+      "word": "order",
+      "start": 4.8,
+      "end": 5.2
+    }
+  ],
+  "pii_regions": [
+    {
+      "start_time": 1.2,
+      "end_time": 2.0,
+      "pii_type": "PERSON",
+      "original_text": "John Smith",
+      "replacement_text": "[PERSON]",
+      "confidence": 0.95
+    }
+  ],
+  "has_pii": true,
+  "pii_types": [
+    "PERSON"
+  ]
+}

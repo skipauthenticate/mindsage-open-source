@@ -1,0 +1,197 @@
+APPLE ACCOUNT PURCHASE HISTORY
+Apple ID: don.jones.1987@gmail.com
+Account Holder: Donald Jones
+
+========================================
+HARDWARE PURCHASES
+========================================
+
+ORDER W847291847
+Date: November 28, 2024 (Black Friday)
+Store: Apple Store Online
+
+Item: iPhone 15 Pro Max 256GB - Natural Titanium
+Price: $1,199.00
+Trade-in Credit (iPhone 13 Pro): -$400.00
+AppleCare+ (2 years): $199.00
+CA Tax: $89.91
+Total: $1,087.91
+
+Payment: Apple Card ****8472 (3% Daily Cash = $32.64)
+Financing: Paid in full
+
+Ship To:
+Donald Jones
+1847 Maple Grove Drive, Apt 4B
+San Jose, CA 95126
+(408) 555-7834
+
+Device Details:
+- Serial: DNQVF847291
+- IMEI: 352847291847521
+- Carrier: AT&T
+- Phone Number: (408) 555-7834
+
+ORDER W291847521
+Date: October 15, 2024
+Store: Apple Store - Valley Fair, San Jose
+
+Item: Apple Watch Series 9 GPS 45mm - Midnight Aluminum
+Price: $429.00
+Sport Band (additional): $49.00
+AppleCare+ (2 years): $79.00
+CA Tax: $50.13
+Total: $607.13
+
+Payment: Apple Card ****8472
+
+Device Details:
+- Serial: GYK2F918274
+- Paired to: iPhone of Donald Jones
+
+Note: Later sold watch on eBay after buying Series 8 on eBay for less
+
+ORDER W184729184
+Date: September 5, 2024
+Store: Apple Store Online
+
+Item: AirPods Pro (2nd generation) with MagSafe Case
+Price: $249.00
+AppleCare+ (2 years): $29.00
+CA Tax: $25.02
+Total: $303.02
+
+Payment: Chase Visa ****4421
+
+Device Serial: H847F291847
+
+ORDER W472918475
+Date: March 15, 2024 (Birthday!)
+Store: Apple Store - Palo Alto
+
+Item: MacBook Air 15" M3 - Midnight
+Configuration:
+- M3 chip (8-core CPU, 10-core GPU)
+- 16GB Unified Memory
+- 512GB SSD Storage
+Base Price: $1,299.00
+Memory Upgrade (+8GB): $200.00
+AppleCare+ (3 years): $179.00
+CA Tax: $150.99
+Total: $1,828.99
+
+Payment: Apple Card Monthly Installments
+- 24 months @ $76.21/month (0% APR)
+- Remaining Balance: $609.68 (8 payments left)
+
+Device Details:
+- Serial: C02847JONES
+- Registered to: don.jones.1987@gmail.com
+
+========================================
+APP STORE & SERVICES
+========================================
+
+SUBSCRIPTIONS (Active):
+1. Apple One Individual - $19.95/month
+   Includes: Apple Music, TV+, Arcade, iCloud+ 200GB
+   Billing Date: 15th of each month
+   Started: January 2023
+
+2. 1Password Families - $4.99/month
+   Billing Date: 3rd of each month
+
+3. Headspace - $12.99/month
+   Billing Date: 24th of each month (started Jan 2025)
+
+RECENT APP PURCHASES:
+- Jan 20, 2025: Fantastical 3 - $4.99/month
+- Jan 15, 2025: CARROT Weather - $6.99
+- Jan 10, 2025: Dark Sky (in-app) - $2.99
+- Dec 28, 2024: Apollo for Reddit - $4.99 (RIP Apollo)
+- Dec 15, 2024: Halide Camera - $11.99
+
+2024 APP STORE SPENDING:
+Total: $234.87
+
+========================================
+iTUNES & MEDIA
+========================================
+
+Recent Music Purchases:
+- "SOS" Album - SZA - $12.99
+- "Midnights" Album - Taylor Swift - $10.99
+- "Renaissance" Album - Beyoncé - $13.99
+
+Recent Movie Rentals:
+- Oppenheimer (4K) - $5.99
+- Barbie - $5.99
+- Dune: Part Two - $5.99
+
+Recent TV Season Pass:
+- The Morning Show S3 - $24.99
+
+2024 iTunes Spending: $187.45
+
+========================================
+APPLE CARD SUMMARY
+========================================
+
+Account: ****8472
+Credit Limit: $8,500
+Current Balance: $609.68 (MacBook installments)
+Available Credit: $7,890.32
+
+Daily Cash Earned (2024): $234.56
+Daily Cash Earned (Lifetime): $892.17
+
+Payment Due: 28th of each month
+Auto-Pay: Enabled (pay full balance from bank ****9912)
+
+Physical Card:
+Name: DONALD JONES
+Titanium Card shipped to:
+1847 Maple Grove Drive, Apt 4B
+San Jose, CA 95126
+
+========================================
+APPLE ACCOUNT SECURITY
+========================================
+
+Two-Factor Authentication: Enabled
+Trusted Devices:
+1. iPhone 15 Pro Max (primary)
+2. MacBook Air 15" M3
+3. Apple Watch Series 8
+
+Trusted Phone Numbers:
+1. (408) 555-7834 (primary)
+2. (925) 555-3341 (backup - Mom's phone)
+
+Recovery Key: Enabled (stored in 1Password)
+Account Recovery Contacts: Linda Jones (linda.jones1956@yahoo.com)
+
+Recent Sign-ins:
+- Jan 25, 2025: iPhone, San Jose, CA
+- Jan 25, 2025: MacBook Air, San Jose, CA
+- Jan 24, 2025: iCloud.com, San Jose, CA
+
+========================================
+FIND MY DEVICES
+========================================
+
+1. Donald's iPhone - Online
+   Location: 1847 Maple Grove Dr, San Jose
+   Battery: 78%
+
+2. Donald's MacBook Air - Online
+   Location: 2500 Innovation Way, Palo Alto (work)
+
+3. Donald's Apple Watch - Online
+   Location: With iPhone
+
+4. Donald's AirPods Pro - Online
+   Location: With iPhone
+
+Lost Mode: Not activated
+Activation Lock: Enabled on all devices

@@ -1,0 +1,193 @@
+BEHAVIORAL HEALTH ASSOCIATES
+Therapy Session Progress Notes
+
+========================================
+PATIENT INFORMATION
+========================================
+Patient: Donald Raymond Jones
+DOB: March 15, 1987 (Age 37)
+MRN: BHA-4829-2024
+SSN: XXX-XX-4829
+
+Address: 1847 Maple Grove Drive, Apt 4B
+         San Jose, CA 95126
+Phone: (408) 555-7834
+Email: don.jones.1987@gmail.com
+Emergency Contact: Linda Jones (Mother) - (925) 555-3341
+
+Provider: Amanda Foster, PhD, LMFT
+License #: LMFT-84729
+NPI: 9876543210
+Phone: (408) 555-9100
+
+Primary Diagnosis: F41.1 Generalized Anxiety Disorder
+Secondary: F32.0 Major Depressive Disorder, Single Episode, Mild
+
+Referral Source: TechVision EAP (Employee Assistance Program)
+EAP Authorization: 6 sessions (through 12/31/2024)
+Continued Care: Blue Shield PPO (BSC-8847562-01)
+
+========================================
+SESSION #1 - September 15, 2024
+========================================
+Time: 2:00 PM - 2:50 PM (50 minutes)
+Type: Initial Intake Assessment
+CPT Code: 90791
+
+Presenting Problem:
+Patient presents with symptoms of anxiety related to work stress. Reports
+difficulty sleeping, racing thoughts about job security, and occasional
+panic symptoms. States "I feel like I'm always waiting for the other shoe
+to drop." Father passed away in 2019 from heart attack; patient worries
+about his own health.
+
+History:
+- No prior mental health treatment
+- No psychiatric hospitalizations
+- No history of self-harm or suicidal ideation
+- Denies substance abuse (occasional social drinking, 2-3 drinks/week)
+- Currently on Lisinopril 10mg for mild hypertension (Dr. Patricia Chen)
+
+Family History:
+- Father (deceased): History of anxiety, heart disease
+- Mother (Linda, 68): Arthritis, no mental health history
+- Brother (David, 34): No known mental health issues
+
+Mental Status Exam:
+- Appearance: Well-groomed, appropriate attire
+- Mood: "Anxious, stressed"
+- Affect: Constricted, worried
+- Thought Process: Linear, goal-directed
+- Thought Content: No SI/HI, no delusions
+- Cognition: Alert, oriented x4
+- Insight/Judgment: Good
+
+Assessment:
+37-year-old male presenting with generalized anxiety disorder with work-
+related triggers. Symptoms include excessive worry, sleep disturbance,
+muscle tension, and difficulty concentrating. GAD-7 Score: 12 (moderate).
+
+Plan:
+1. Weekly therapy sessions (CBT approach)
+2. Introduce mindfulness techniques
+3. Sleep hygiene education
+4. Consider psychiatric referral if symptoms persist
+
+========================================
+SESSION #4 - October 6, 2024
+========================================
+Time: 2:00 PM - 2:50 PM (50 minutes)
+Type: Individual Therapy
+CPT Code: 90834
+
+Session Summary:
+Patient reports improvement in sleep (averaging 6.5 hours vs 5 hours at
+intake). Has been practicing breathing exercises when feeling anxious.
+Work stress continues but feels more manageable. Discussed cognitive
+distortions - particularly catastrophizing about job loss.
+
+Patient shared that his employer (TechVision) announced potential layoffs.
+This triggered significant anxiety. We worked on cognitive restructuring:
+- Identifying automatic thoughts
+- Evaluating evidence for/against
+- Developing balanced alternatives
+
+Homework Assigned:
+1. Continue sleep diary
+2. Practice 4-7-8 breathing technique twice daily
+3. Use thought record when noticing anxiety
+
+GAD-7 Score: 10 (moderate - improved from 12)
+
+========================================
+SESSION #6 - November 3, 2024
+========================================
+Time: 2:00 PM - 2:50 PM (50 minutes)
+Type: Individual Therapy
+CPT Code: 90834
+
+Session Summary:
+Final EAP-covered session. Patient has made good progress. Sleep has
+improved to 7+ hours most nights. Reports using mindfulness app
+(Headspace) daily. Layoff anxiety has decreased after manager assured
+his position is secure.
+
+Discussed continued care options. Patient wishes to continue therapy
+monthly for maintenance. Will transition to Blue Shield insurance.
+
+Outcomes:
+- GAD-7 Score: 7 (mild - down from 12 at intake)
+- Sleep improved significantly
+- Developed coping toolkit
+- Stronger awareness of cognitive patterns
+
+Recommendations:
+1. Continue monthly sessions
+2. Maintain mindfulness practice
+3. Regular exercise (patient started going to gym)
+4. Follow up with PCP for blood pressure monitoring
+
+========================================
+SESSION #8 - January 10, 2025
+========================================
+Time: 3:00 PM - 3:50 PM (50 minutes)
+Type: Individual Therapy
+CPT Code: 90834
+
+Session Summary:
+Monthly maintenance session. Patient reports doing well overall. Received
+good news about job security and a raise ($81,250 → $84,500). Anxiety
+levels remain low. Discussed upcoming Hawaii vacation in April - excited
+but some anticipatory anxiety about flying.
+
+Explored family relationships. Patient is close with mother (Linda) and
+brother (David). Became an uncle in November (niece Sophia). This has
+brought joy and also some reflection on his own life goals (relationship,
+family, etc.).
+
+Current Medications (per patient report):
+- Lisinopril 10mg daily (blood pressure)
+- Vitamin D3 2000 IU daily
+- Fish Oil 1000mg daily
+
+Mental Status: Improved. Mood "good," affect brighter, engaged.
+
+GAD-7 Score: 5 (mild)
+PHQ-9 Score: 3 (minimal depression)
+
+Plan:
+1. Continue monthly sessions
+2. Work on dating/relationship goals next session
+3. Discuss travel anxiety strategies before April trip
+
+Next Appointment: February 14, 2025 at 3:00 PM
+
+========================================
+BILLING SUMMARY
+========================================
+
+Sessions 1-6 (Sept-Nov 2024):
+Billed to: TechVision EAP
+EAP Provider: ComPsych
+Authorization #: EAP-TV-847291
+Patient Cost: $0.00
+
+Sessions 7-8 (Dec 2024-Jan 2025):
+Billed to: Blue Shield of California
+Policy: BSC-8847562-01
+CPT: 90834 (45-50 min individual therapy)
+Charge: $200.00 per session
+Insurance Paid: $160.00
+Patient Copay: $40.00
+
+Outstanding Balance: $0.00
+
+========================================
+CONFIDENTIALITY NOTICE
+========================================
+This document contains protected health information (PHI) covered under
+HIPAA. Unauthorized disclosure is prohibited. For records requests,
+contact Behavioral Health Associates at (408) 555-9100.
+
+Release of Information on file:
+- Dr. Patricia Chen, MD (PCP) - signed 09/15/2024

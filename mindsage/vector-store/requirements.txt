@@ -1,0 +1,107 @@
+# MCP Vector Store Dependencies
+# Install with: pip install -r vector-store/requirements.txt
+#
+# JETSON ORIN NANO: Do NOT install torch from PyPI - use NVIDIA's wheels:
+#   pip install torch==2.8.0 torchvision==0.23.0 --index-url=https://pypi.jetson-ai-lab.io/jp6/cu126
+#   Then install remaining deps: pip install -r requirements.txt (torch will be skipped if already installed)
+#
+# Docker: Dockerfile.jetson handles this automatically by using NVIDIA's L4T base image.
+
+# =============================================================================
+# Vector Store Backend - txtai
+# =============================================================================
+# txtai provides unified hybrid search (BM25 + vectors), semantic graphs, and ONNX support
+# v9.6+ fixes FAISS IndexIDMap nprobe bug (search on small indexes no longer crashes)
+txtai[all]>=9.6.0
+
+# ONNX Runtime for Jetson optimization
+# On Jetson: pip install onnxruntime-gpu --index-url=https://pypi.jetson-ai-lab.io/jp6/cu126
+# This provides CUDAExecutionProvider for GPU-accelerated inference
+onnxruntime>=1.16.0
+
+# =============================================================================
+# Core dependencies
+# =============================================================================
+numpy>=1.21.0,<2.0.0
+sentence-transformers>=2.2.0
+torch>=2.0.0  # See note above for Jetson - PyPI torch won't work on ARM64 iGPU
+transformers>=4.45.0
+
+# MCP server (optional, for stdio MCP mode)
+mcp>=0.9.0
+pydantic>=2.0.0
+
+# HTTP server (required for MindSage integration)
+starlette>=0.27.0
+uvicorn>=0.23.0
+sse-starlette>=1.6.0
+httpx>=0.24.0
+
+# Utilities
+tqdm>=4.65.0
+huggingface-hub>=0.19.0
+
+# PII Protection with Microsoft Presidio (optional)
+# After installing, run: python -m spacy download en_core_web_sm
+presidio-analyzer>=2.2.0
+presidio-anonymizer>=2.2.0
+spacy>=3.5.0
+
+# LPRAG (Locally Private RAG) - Local Differential Privacy for PII (optional)
+# Uses GloVe embeddings for semantic similarity in word perturbation
+gensim>=4.3.0
+
+# =============================================================================
+# Media Processing (Audio & Image)
+# =============================================================================
+# Image processing
+Pillow>=9.0.0
+
+# Audio file I/O (WAV, FLAC, OGG)
+soundfile>=0.12.0
+
+# Audio resampling
+scipy>=1.10.0
+
+# Note: MP3 support requires ffmpeg system package:
+#   sudo apt install ffmpeg
+
+# =============================================================================
+# Image PII Redaction (OCR + Presidio)
+# =============================================================================
+# Primary: EasyOCR (GPU-accelerated, PyTorch-based)
+easyocr>=1.7.0
+
+# Fallback: Tesseract OCR (CPU-only)
+# Requires system package: sudo apt install tesseract-ocr tesseract-ocr-eng
+pytesseract>=0.3.10
+
+# =============================================================================
+# Audio PII Redaction (Whisper + Presidio)
+# =============================================================================
+# Word-level timestamps for precise PII mapping
+# Uses same Whisper model as transcription - no additional GPU memory
+whisper-timestamped>=1.15.0
+
+# Audio file redaction (silence/beep over PII segments)
+# Requires system package: sudo apt install ffmpeg
+pydub>=0.25.0
+
+# =============================================================================
+# Voice Chat (All-Groq Cloud Pipeline: STT + TTS + WebRTC)
+# =============================================================================
+# WebRTC voice streaming via FastRTC (ReplyOnPause VAD + bidirectional audio)
+fastrtc[vad]>=0.0.10
+
+# Groq API client (STT via Whisper, LLM, TTS via PlayAI — all cloud)
+groq>=0.4.0
+
+# =============================================================================
+# Test Audio Generation (TTS)
+# =============================================================================
+# Text-to-speech for generating test audio fixtures with real speech
+edge-tts>=6.1.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0

@@ -1,0 +1,78 @@
+{
+  "filename": "conversation_with_credit_card.wav",
+  "description": "Conversation mentioning a credit card number",
+  "duration_seconds": 8.81,
+  "sample_rate": 16000,
+  "transcript": "My card number is 4111 1111 1111 1111 expiring next year",
+  "words": [
+    {
+      "word": "My",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "card",
+      "start": 0.4,
+      "end": 0.8
+    },
+    {
+      "word": "number",
+      "start": 0.8,
+      "end": 1.2
+    },
+    {
+      "word": "is",
+      "start": 1.2,
+      "end": 1.6
+    },
+    {
+      "word": "4111",
+      "start": 1.6,
+      "end": 2.0
+    },
+    {
+      "word": "1111",
+      "start": 2.0,
+      "end": 2.4
+    },
+    {
+      "word": "1111",
+      "start": 2.4,
+      "end": 2.8
+    },
+    {
+      "word": "1111",
+      "start": 2.8,
+      "end": 3.2
+    },
+    {
+      "word": "expiring",
+      "start": 3.2,
+      "end": 3.6
+    },
+    {
+      "word": "next",
+      "start": 3.6,
+      "end": 4.0
+    },
+    {
+      "word": "year",
+      "start": 4.0,
+      "end": 4.4
+    }
+  ],
+  "pii_regions": [
+    {
+      "start_time": 1.2,
+      "end_time": 3.0,
+      "pii_type": "CREDIT_CARD",
+      "original_text": "4111 1111 1111 1111",
+      "replacement_text": "[CREDIT_CARD]",
+      "confidence": 0.95
+    }
+  ],
+  "has_pii": true,
+  "pii_types": [
+    "CREDIT_CARD"
+  ]
+}

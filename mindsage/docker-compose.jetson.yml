@@ -1,0 +1,64 @@
+# MindSage Docker Compose - Jetson Override
+# Adds GPU support and host networking for Jetson Orin Nano
+#
+# This file is automatically used by docker-start.sh on Jetson
+# Manual usage:
+#   docker compose -f docker-compose.yml -f docker-compose.jetson.yml up --build
+
+services:
+  mindsage:
+    # Host network mode required for:
+    # - LocalSend UDP multicast discovery (224.0.0.167:53317)
+    # - mDNS advertisement via avahi-publish
+    # - Direct LAN device communication
+    network_mode: host
+    environment:
+      - NODE_ENV=production
+      - PORT=3003
+      - DEVICE_NAME=MindSage
+      # With host networking, use localhost instead of service name
+      - VECTOR_STORE_HOST=localhost
+      - VECTOR_STORE_PORT=8085
+    volumes:
+      - ./data:/app/data
+      # D-Bus socket for avahi communication
+      - /var/run/dbus:/var/run/dbus:ro
+    # Override healthcheck for host network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3003/api/stats"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  vector-store:
+    build:
+      context: ./vector-store
+      dockerfile: Dockerfile.jetson
+      args:
+        DOWNLOAD_MODELS: "false"
+    # Host network for consistency with mindsage
+    network_mode: host
+    environment:
+      - PORT=8085
+      # GPU memory settings for Jetson Orin Nano (~7.4GB shared)
+      - PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512
+      # PII Protection Configuration (inherits from base, can override)
+      # Use "default" preset on resource-constrained devices for faster startup
+      # - PII_ENTITIES=default
+      # Image PII Redaction (uses GPU via CUDA on Jetson)
+      - IMAGE_PII_ENABLED=true
+      - IMAGE_PII_OCR_ENGINE=easyocr
+      - IMAGE_REDACTION_COLOR=black
+    volumes:
+      - ./data:/app/data
+      - ./data/redacted:/app/data/redacted
+    # GPU access via NVIDIA Container Runtime
+    runtime: nvidia
+    # Override healthcheck for host network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8085/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s

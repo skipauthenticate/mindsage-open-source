@@ -1,0 +1,68 @@
+{
+  "filename": "conversation_with_email.wav",
+  "description": "Conversation mentioning an email address",
+  "duration_seconds": 5.28,
+  "sample_rate": 16000,
+  "transcript": "You can reach me at john.smith@example.com for any questions",
+  "words": [
+    {
+      "word": "You",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "can",
+      "start": 0.4,
+      "end": 0.8
+    },
+    {
+      "word": "reach",
+      "start": 0.8,
+      "end": 1.2
+    },
+    {
+      "word": "me",
+      "start": 1.2,
+      "end": 1.6
+    },
+    {
+      "word": "at",
+      "start": 1.6,
+      "end": 2.0
+    },
+    {
+      "word": "john.smith@example.com",
+      "start": 2.0,
+      "end": 2.4
+    },
+    {
+      "word": "for",
+      "start": 2.4,
+      "end": 2.8
+    },
+    {
+      "word": "any",
+      "start": 2.8,
+      "end": 3.2
+    },
+    {
+      "word": "questions",
+      "start": 3.2,
+      "end": 3.6
+    }
+  ],
+  "pii_regions": [
+    {
+      "start_time": 1.6,
+      "end_time": 3.0,
+      "pii_type": "EMAIL_ADDRESS",
+      "original_text": "john.smith@example.com",
+      "replacement_text": "[EMAIL]",
+      "confidence": 0.95
+    }
+  ],
+  "has_pii": true,
+  "pii_types": [
+    "EMAIL_ADDRESS"
+  ]
+}

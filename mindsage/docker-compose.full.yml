@@ -1,0 +1,139 @@
+# MindSage Full Stack Docker Compose
+# Includes frontend, backend, and vector-store with Jetson Orin Nano 8GB memory constraints
+#
+# Prerequisites:
+#   - mindsage-frontend repo cloned as sibling: ../mindsage-frontend
+#
+# Start all services (from mindsage directory):
+#   docker compose -f docker-compose.full.yml up --build
+#
+# Start in background:
+#   docker compose -f docker-compose.full.yml up -d --build
+#
+# View logs:
+#   docker compose -f docker-compose.full.yml logs -f
+#
+# Stop all:
+#   docker compose -f docker-compose.full.yml down
+
+services:
+  # React Frontend (nginx)
+  frontend:
+    build:
+      context: ../mindsage-frontend
+      dockerfile: Dockerfile
+    container_name: mindsage-frontend
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    depends_on:
+      mindsage:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    # Memory limit to simulate Jetson constraints
+    # Frontend is lightweight - nginx serving static files
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+        reservations:
+          memory: 64M
+
+  # Express API Backend
+  mindsage:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mindsage
+    restart: unless-stopped
+    ports:
+      - "3003:3003"
+      - "53317:53317"
+      - "6080:6080"  # noVNC web interface for remote browser access
+    environment:
+      - NODE_ENV=production
+      - PORT=3003
+      - DEVICE_NAME=MindSage
+      - VECTOR_STORE_HOST=vector-store
+      - VECTOR_STORE_PORT=8085
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      vector-store:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3003/api/stats"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    # Memory limit to simulate Jetson constraints
+    # Node.js backend + VNC overhead
+    deploy:
+      resources:
+        limits:
+          memory: 1.5G
+        reservations:
+          memory: 512M
+
+  # Python Vector Store / ML Service
+  vector-store:
+    build:
+      context: ./vector-store
+      dockerfile: Dockerfile
+      args:
+        DOWNLOAD_MODELS: "false"
+    container_name: mindsage-vector-store
+    restart: unless-stopped
+    ports:
+      - "8085:8085"
+    environment:
+      - PORT=8085
+      # PII Protection Configuration
+      # Options: "minimal", "default", "strict", or comma-separated list
+      - PII_ENTITIES=strict
+      # LPRAG Mode: "disabled" (tokens only), "hybrid" (LPRAG with token fallback), "pure" (LPRAG only)
+      - LPRAG_MODE=hybrid
+      # Memory settings to simulate Jetson shared memory constraints
+      - PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:256
+      # Audio PII Redaction
+      # Redaction style: "brackets" ([PERSON]), "placeholder" ([REDACTED]), "lprag" (semantic perturbation)
+      - AUDIO_PII_ENABLED=true
+      - AUDIO_PII_REDACTION_STYLE=lprag
+      # Image PII Redaction
+      - IMAGE_PII_ENABLED=true
+      - IMAGE_PII_OCR_ENGINE=easyocr
+      - IMAGE_REDACTION_COLOR=black
+    volumes:
+      - ./data/vectordb:/app/data/vectordb
+      - ./data/uploads:/app/data/uploads
+      - ./data/redacted:/app/data/redacted
+      - ./vector-store/models:/app/models
+      - ./vector-store/tests/fixtures:/app/tests/fixtures  # Test fixtures persist to host
+      - huggingface-cache:/root/.cache/huggingface
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8085/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 120s
+    # Memory limit to simulate Jetson constraints
+    # ML service - largest memory consumer (embedding models, TinyLlama, etc.)
+    # On Jetson, GPU/CPU share ~7.4GB. Allocate most to ML service.
+    deploy:
+      resources:
+        limits:
+          memory: 6G
+        reservations:
+          memory: 2G
+
+volumes:
+  huggingface-cache:
+
+# Network configuration
+# All services use default bridge network, communicating via container names

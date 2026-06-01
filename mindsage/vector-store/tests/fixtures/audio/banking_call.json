@@ -1,0 +1,96 @@
+{
+  "filename": "banking_call.wav",
+  "description": "Banking support call",
+  "duration_seconds": 9.14,
+  "sample_rate": 16000,
+  "transcript": "Account number 9876543210 for customer Michael Brown address 123 Main Street",
+  "words": [
+    {
+      "word": "Account",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "number",
+      "start": 0.4,
+      "end": 0.8
+    },
+    {
+      "word": "9876543210",
+      "start": 0.8,
+      "end": 1.2
+    },
+    {
+      "word": "for",
+      "start": 1.2,
+      "end": 1.6
+    },
+    {
+      "word": "customer",
+      "start": 1.6,
+      "end": 2.0
+    },
+    {
+      "word": "Michael",
+      "start": 2.0,
+      "end": 2.4
+    },
+    {
+      "word": "Brown",
+      "start": 2.4,
+      "end": 2.8
+    },
+    {
+      "word": "address",
+      "start": 2.8,
+      "end": 3.2
+    },
+    {
+      "word": "123",
+      "start": 3.2,
+      "end": 3.6
+    },
+    {
+      "word": "Main",
+      "start": 3.6,
+      "end": 4.0
+    },
+    {
+      "word": "Street",
+      "start": 4.0,
+      "end": 4.4
+    }
+  ],
+  "pii_regions": [
+    {
+      "start_time": 0.8,
+      "end_time": 2.0,
+      "pii_type": "US_BANK_NUMBER",
+      "original_text": "9876543210",
+      "replacement_text": "[ACCOUNT]",
+      "confidence": 0.95
+    },
+    {
+      "start_time": 2.8,
+      "end_time": 3.6,
+      "pii_type": "PERSON",
+      "original_text": "Michael Brown",
+      "replacement_text": "[PERSON]",
+      "confidence": 0.95
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.2,
+      "pii_type": "LOCATION",
+      "original_text": "123 Main Street",
+      "replacement_text": "[ADDRESS]",
+      "confidence": 0.95
+    }
+  ],
+  "has_pii": true,
+  "pii_types": [
+    "US_BANK_NUMBER",
+    "LOCATION",
+    "PERSON"
+  ]
+}

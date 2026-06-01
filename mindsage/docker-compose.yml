@@ -1,0 +1,83 @@
+# MindSage Docker Compose
+# Automatically detects platform and configures appropriately
+#
+# Quick start (works on Mac, Linux, or Jetson):
+#   docker compose up --build
+
+services:
+  # Express API Backend
+  mindsage:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mindsage
+    restart: unless-stopped
+    ports:
+      - "3003:3003"
+      - "53317:53317"
+      - "6080:6080"  # noVNC web interface for remote browser access
+    environment:
+      - NODE_ENV=production
+      - PORT=3003
+      - DEVICE_NAME=MindSage
+      - VECTOR_STORE_HOST=vector-store
+      - VECTOR_STORE_PORT=8085
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      vector-store:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3003/api/stats"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Python Vector Store / ML Service
+  vector-store:
+    build:
+      context: ./vector-store
+      dockerfile: Dockerfile
+      args:
+        DOWNLOAD_MODELS: "false"
+    container_name: mindsage-vector-store
+    restart: unless-stopped
+    ports:
+      - "8085:8085"
+    environment:
+      - PORT=8085
+      # Set both values to expose authenticated remote MCP through a tunnel/proxy.
+      # - MCP_VECTOR_STORE_PUBLIC=true
+      # - VECTOR_STORE_API_KEY=${VECTOR_STORE_API_KEY}
+      # PII Protection Configuration
+      # Options: "minimal" (names, emails, phones), "default" (common types), "strict" (all types)
+      # Or comma-separated list: "PERSON,EMAIL_ADDRESS,PHONE_NUMBER,IBAN_CODE"
+      - PII_ENTITIES=strict
+      # LPRAG Mode: "disabled" (tokens only), "hybrid" (LPRAG with token fallback), "pure" (LPRAG only)
+      - LPRAG_MODE=hybrid
+      # Audio PII Redaction
+      # Redaction style: "brackets" ([PERSON]), "placeholder" ([REDACTED]), "lprag" (semantic perturbation)
+      - AUDIO_PII_ENABLED=true
+      - AUDIO_PII_REDACTION_STYLE=lprag
+      # Image PII Redaction
+      - IMAGE_PII_ENABLED=true
+      - IMAGE_PII_OCR_ENGINE=easyocr
+      - IMAGE_REDACTION_COLOR=black
+    volumes:
+      - ./data/vectordb:/app/data/vectordb
+      - ./data/redacted:/app/data/redacted
+      - ./data/uploads:/app/data/uploads
+      - ./vector-store/models:/app/models
+      - ./vector-store/tests/fixtures:/app/tests/fixtures  # Test fixtures persist to host
+      - huggingface-cache:/root/.cache/huggingface
+    healthcheck:
+      # Health check now includes PII subsystem status
+      test: ["CMD", "curl", "-f", "http://localhost:8085/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  huggingface-cache:

@@ -1,0 +1,102 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  node:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            mindsage/package-lock.json
+            mindsage-frontend/package-lock.json
+
+      - name: Install backend dependencies
+        working-directory: mindsage
+        run: npm ci
+
+      - name: Install frontend dependencies
+        working-directory: mindsage-frontend
+        run: npm ci
+
+      - name: Open-source readiness
+        run: npm run check:oss
+
+      - name: Backend tests
+        working-directory: mindsage
+        run: npm test
+
+      - name: Backend build
+        working-directory: mindsage
+        run: npm run build
+
+      - name: Frontend lint
+        working-directory: mindsage-frontend
+        run: npm run lint
+
+      - name: Frontend tests
+        working-directory: mindsage-frontend
+        run: npm test
+
+      - name: Frontend build
+        working-directory: mindsage-frontend
+        run: npm run build
+
+  python-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Compile vector-store Python
+        run: python -m compileall -q mindsage/vector-store/mcp_vector_store
+
+      - name: Agent tool unit tests
+        run: |
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_think_tool.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_memory_tool.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_remote_auth.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_agent_setup.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_agent_schema.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_agent_health.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_agent_pack.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_agent_capture.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_agent_think.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_agent_import.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_agent_search.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_entity_graph.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_maintenance_tool.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_agent_evals.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_corpus_evals.py'
+          PYTHONPATH=mindsage/vector-store python -m unittest discover -s mindsage/vector-store/tests -p 'test_agent_benchmarks.py'
+
+      - name: Agent memory evals
+        run: python mindsage/vector-store/mcp_vector_store/agent_evals.py
+
+      - name: Fixture corpus evals
+        run: python mindsage/vector-store/mcp_vector_store/corpus_evals.py
+
+      - name: Agent feature benchmarks
+        run: python mindsage/vector-store/mcp_vector_store/agent_benchmarks.py
+
+      - name: Maintenance snapshot
+        run: python mindsage/vector-store/mcp_vector_store/maintenance_tool.py --reference-date 2026-06-01 --freshness-days 90
+
+      - name: Maintenance plan
+        run: python mindsage/vector-store/mcp_vector_store/maintenance_tool.py --plan --reference-date 2026-06-01 --freshness-days 90
+
+      - name: Maintenance apply batch
+        run: python mindsage/vector-store/mcp_vector_store/maintenance_tool.py --apply --reference-date 2026-06-01 --freshness-days 90
+
+      - name: Maintenance ledger
+        run: |
+          python mindsage/vector-store/mcp_vector_store/maintenance_tool.py --apply --reference-date 2026-06-01 --freshness-days 90 --ledger-path /tmp/mindsage-maintenance-ledger.jsonl
+          python mindsage/vector-store/mcp_vector_store/maintenance_tool.py --ledger-report /tmp/mindsage-maintenance-ledger.jsonl
